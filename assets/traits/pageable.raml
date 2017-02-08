@@ -1,0 +1,12 @@
+#%RAML 1.0 Trait
+headers:
+  X-CBI-NumberOfRecords:
+    type: integer
+    description: Specified by the API Consumer and returned from the API. Represents how many records to return. Note, this value may be overriden by the API.
+    required: false
+    default: 1000
+  X-CBI-RecordIndex:
+    type: integer
+    description: Specified by the API Consumer and returned from the API. Represents which row to start the result set at.
+    required: false
+    default: 1

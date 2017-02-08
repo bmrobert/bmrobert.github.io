@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-03/schema",
+  "properties": {
+    "workers": {
+      "type": "array",
+      "items": {
+       "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "middleName": {
+            "type": "string"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "jobTitle": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "type",
+          "firstName",
+          "lastName"
+         ]
+      }
+    }
+  },
+  "required": [
+    "workers"
+  ]
+}

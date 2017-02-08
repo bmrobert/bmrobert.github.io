@@ -1,0 +1,6 @@
+{
+  "httpStatus": "UNAUTHORIZED",
+  "code": 401,
+  "message": "Not Authorized",
+  "description": "Signature verification failed."
+}

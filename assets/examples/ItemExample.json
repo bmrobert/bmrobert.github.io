@@ -1,0 +1,43 @@
+{
+  "classification": {
+    "beverageSegmentCode": "100",
+    "beverageSegmentDescription": "WINE",
+    "beverageSubSegmentCode": "104",
+    "beverageSubSegmentDescription": "TABLE",
+    "blendCode": "198",
+    "blendDescription": "CABERNET SAUVIGNON",
+    "brandCode": "560",
+    "subBrandCode": "1828",
+    "varietalClassCode": "999",
+    "varietalClassDescription": "N/A",
+    "vintageCode": "999",
+    "vintageDescription": "N/A"
+  },
+  "gtin": "UNK",
+  "id": "1008",
+  "itemCode": "100006",
+  "itemDescription": "TAGN EST CSV CVL 1.5/6",
+  "itemLongDescription": "TAYLOR AGENCY TAYLORS ESTATE CABERNET SAUVIGNON CLARE VALLEY SA 1.5/6",
+  "masterSKUCode": "70457",
+  "masterSKUDescription": "TAGN EST CSV CVL 1.5/6",
+  "origin": {
+    "countryCode": "112",
+    "countryDescription": "AUSTRALIA",
+    "vineyardDesignateCode": "999",
+    "vineyardDesignateDescription": "N/A",
+    "wineDesignationCode": "999",
+    "wineDesignationDescription": "N/A"
+  },
+  "packagingInformation": {
+    "packTypeCode": "145",
+    "packTypeDescription": "1.5/6",
+    "packageTypeCode": "102",
+    "packageTypeDescription": "GLASS",
+    "sizeCode": "108",
+    "sizeDescription": "1.5",
+    "unitOfMeasurementSizeCode": "LT",
+    "unitOfMeasurementSizeDescription": "LITERS"
+  },
+  "universalSKUCode": "99998",
+  "universalSKUDescription": "DISCONTINUED"
+}

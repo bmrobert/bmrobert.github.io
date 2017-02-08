@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "universalSKUCode": {
+      "type": "string"
+    },
+    "universalSKUDescription": {
+      "type": "string"
+    },
+    "masterSKUCode": {
+      "type": "string"
+    },
+    "masterSKUDescription": {
+      "type": "string"
+    },
+    "upc": {
+      "type": "string"
+    },
+    "gtin": {
+      "type": "string" 
+    },
+    "itemCode": {
+      "type": "string"
+    },
+    "itemDescription": {
+      "type": "string"
+    },
+    "itemLongCode": {
+      "type": "string"
+    },
+    "itemLongDescription": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "object",
+      "properties": {
+        "beverageSegmentCode": {
+          "type": "string"
+        },
+        "beverageSegmentDescription": {
+          "type": "string"
+        },
+        "beverageSubSegmentCode": {
+          "type": "string"
+        },
+        "beverageSubSegmentDescription": {
+          "type": "string"
+        },
+        "brandCode": {
+          "type": "string"
+        },
+        "subBrandCode": {
+          "type": "string"
+        },
+        "varietalClassCode": {
+          "type": "string"
+        },
+        "varietalClassDescription": {
+          "type": "string"
+        },
+        "blendCode": {
+          "type": "string"
+        },
+        "blendDescription": {
+          "type": "string"
+        },
+        "vintageCode": {
+          "type": "string"
+        },
+        "vintageDescription": {
+          "type": "string"
+        },
+        "typeCode": {
+          "type": "string"
+        },
+        "typeDescription": {
+          "type": "string"
+        }
+      }
+    },
+    "packagingInformation": {
+      "type": "object",
+      "properties": {
+        "packTypeCode": {
+          "type": "string"
+        },
+        "packTypeDescription": {
+          "type": "string"
+        },
+        "packageTypeCode": {
+          "type": "string"
+        },
+        "packageTypeDescription": {
+          "type": "string"
+        },
+        "sizeCode": {
+          "type": "string"
+        },
+        "sizeDescription": {
+          "type": "string"
+        },
+        "unitOfMeasurementSizeCode": {
+          "type": "string"
+        },
+        "unitOfMeasurementSizeDescription": {
+          "type": "string"
+        }
+      }
+    },
+    "origin": {
+      "type": "object",
+      "properties": {
+        "vineyardDesignateCode": {
+          "type": "string"
+        },
+        "vineyardDesignateDescription": {
+          "type": "string"
+        },
+        "wineDesignationCode": {
+          "type": "string"
+        },
+        "wineDesignationDescription": {
+          "type": "string"
+        },
+        "countryCode": {
+          "type": "string"
+        },
+        "countryDescription": {
+          "type": "string"
+        }
+      }
+    }
+  },
+  "required": ["id"]
+}

@@ -1,0 +1,522 @@
+#%RAML 0.8
+---
+title: Constellation Brands Internal
+protocols: [ HTTP, HTTPS ]
+baseUri: https://internal.api.cbrands.com/{version}
+mediaType: application/json
+version: v2
+
+traits:
+  - apiKeyed:
+      queryParameters:
+        apiKey:
+          displayName: API Key
+          type: string
+          description: consumer's API key
+          required: true
+  - signed:
+      queryParameters:
+        signature:
+          displayName: Signature
+          type: string
+          description: computed signature calculated as per https://docs.aws.amazon.com/general/latest/gr/signature-version-2.html
+          required: true
+
+/stores:
+  get:
+    description: Responds with information about all stores within the specified coordinates
+    is: [apiKeyed, signed]
+    queryParameters:
+      upperLeftBound:
+        description: A comma-separated latitude,longitude coordinate, designating the upper left corner of the bounding box. If specified, the "lowerRightBound" query parameter is required.
+        type: string
+        pattern: '^[0-9]+\.{0,1}[0-9]*,[0-9]+\.{0,1}[0-9]*$'
+        required: false
+      lowerRightBound:
+        description: A comma-separated latitude,longitude coordinate, designating the lower right corner of the bounding box. If specified, the "upperLeftBound" query parameter is required.
+        type: string
+        pattern: '^[0-9]+\.{0,1}[0-9]*,[0-9]+\.{0,1}[0-9]*$'
+        required: false
+      filterUnsold:
+        description: Flag to include accounts that are not currently sold.
+        type: string
+        enum: ['Y', 'N']
+        required: false
+        default: 'N'
+      includeStoreRank:
+        description: Flag to include store rank information.
+        type: string
+        required: false
+        enum: ['Y','N']
+        default: 'N'
+      includeStoreBrandRank:
+        description: Flag to include store brand rank information.
+        type: string
+        required: false
+        enum: ['Y','N']
+        default: 'N'
+      channelTeamName:
+        description: Channel Team Identifier. Note this only applies when regionId parameter is absent and lowerRightBound/UpperLeftBound parameters are absent. If channelTeamName is present stateId must also be present.
+        type: string
+        pattern: '^[A-Z]*$'
+        required: false
+      regionId:
+        description: Region Identifier. Note this only applies when channelTeamId parameter is absent and lowerRightBound/UpperLeftBound parameters are absent. If regionId is present stateId must also be present.
+        type: string
+        pattern: '^[A-Z]*$'
+        required: false
+      stateId:
+        description: State abbreviation. Note this only applies when either the stateId or regionId parameter is present. If either stateId or regionId is present then this also must be present.
+        type: string
+        pattern: '^[A-Z]*$'
+        required: false
+      onlyHighImpact:
+        description: Flag to indicate only high impact stores be returned. Note this only applies when either the stateId or regionId parameter is present.
+        type: string
+        required: false
+        enum: ['Y','N']
+        default: 'N'
+    responses:
+      200:
+        body:
+          application/json:
+            schema:
+              !include schemas/stores/collection.json
+            example:
+              !include examples/stores/collection.json
+      400:
+        body:
+          application/json:
+            schema:
+              !include schemas/error.json
+            example:
+              !include examples/400.json
+      401:
+        body:
+          application/json:
+            schema:
+              !include schemas/error.json
+            example:
+              !include examples/401.json
+
+  /{tdlinx_store_cd}:
+    get:
+      description: Responds with information about a specific store.
+      is: [apiKeyed, signed]
+      responses:
+        200:
+          body:
+            application/json:
+              schema:
+                !include schemas/stores/store.json
+              example:
+                !include examples/stores/store.json
+        400:
+          body:
+            application/json:
+              schema:
+                !include schemas/error.json
+              example:
+                !include examples/400.json
+        401:
+          body:
+            application/json:
+              schema:
+                !include schemas/error.json
+              example:
+                !include examples/401.json
+
+    /performance:
+      get:
+        is: [apiKeyed, signed]
+        responses:
+          200:
+            body:
+              application/json:
+                schema:
+                  !include schemas/stores/store_performance.json
+                example:
+                  !include examples/stores/store_performance.json
+          400:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/400.json
+          401:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/401.json
+
+    /opportunities:
+      get:
+        is: [apiKeyed, signed]
+        responses:
+          200:
+            body:
+              application/json:
+                schema:
+                  !include schemas/stores/store_opportunities.json
+                example:
+                  !include examples/stores/store_opportunities.json
+          400:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/400.json
+          401:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/401.json
+
+    /packagePerformance:
+      get:
+        is: [apiKeyed, signed]
+        responses:
+          200:
+            body:
+              application/json:
+                schema:
+                  !include schemas/stores/store_packagePerformance.json
+                example:
+                  !include examples/stores/store_packagePerformance.json
+          400:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/400.json
+          401:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/401.json
+
+    /storePerformance:
+      get:
+        is: [apiKeyed, signed]
+        responses:
+          200:
+            body:
+              application/json:
+                schema:
+                  !include schemas/stores/store_storePerformance.json
+                example:
+                  !include examples/stores/store_storePerformance.json
+          400:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/400.json
+          401:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/401.json
+
+    /contacts:
+      get:
+        is: [apiKeyed, signed]
+        responses:
+          200:
+            body:
+              application/json:
+                schema:
+                  !include schemas/stores/store_contacts.json
+                example:
+                  !include examples/stores/store_contacts.json
+          400:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/400.json
+          401:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/401.json
+
+    /itemAuthorizations:
+      get:
+        is: [apiKeyed, signed]
+        responses:
+          200:
+            body:
+              application/json:
+                schema:
+                  !include schemas/stores/store_itemAuthorizations.json
+                example:
+                  !include examples/stores/store_itemAuthorizations.json
+          400:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/400.json
+          401:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/401.json
+
+    /features:
+      get:
+        is: [apiKeyed, signed]
+        responses:
+          200:
+            body:
+              application/json:
+                schema:
+                  !include schemas/stores/store_features.json
+                example:
+                  !include examples/stores/store_features.json
+          400:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/400.json
+          401:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/401.json
+
+    /recommendations/feedback:
+      is: [apiKeyed, signed]
+      get:
+        responses:
+          200:
+            body:
+              application/json:
+          400:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/400.json
+          401:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/401.json
+
+/distributors:
+  /{distributor_cd}:
+    /packagePerformance:
+      get:
+        is: [apiKeyed, signed]
+        responses:
+          200:
+            body:
+              application/json:
+                schema:
+                  !include schemas/distributors/distributor_packagePerformance.json
+                example:
+                  !include examples/distributors/distributor_packagePerformance.json
+          400:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/400.json
+          401:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/401.json
+
+    /distributorPerformance:
+      get:
+        is: [apiKeyed, signed]
+        responses:
+          200:
+            body:
+              application/json:
+                schema:
+                  !include schemas/distributors/distributor_distributorPerformance.json
+                example:
+                  !include examples/distributors/distributor_distributorPerformance.json
+          400:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/400.json
+          401:
+            body:
+              application/json:
+                schema:
+                  !include schemas/error.json
+                example:
+                  !include examples/401.json
+
+
+/feedback:
+  post:
+    is: [apiKeyed, signed]
+    body:
+      application/json:
+        example:
+          !include examples/feedback/POST_BODY-feedback.json
+    responses:
+      200:
+      400:
+        body:
+          application/json:
+            schema:
+              !include schemas/error.json
+            example:
+              !include examples/400.json
+      401:
+        body:
+          application/json:
+            schema:
+              !include schemas/error.json
+            example:
+              !include examples/401.json
+
+
+/filters/stores/products:
+  post:
+    is: [apiKeyed, signed]
+    body:
+      application/json:
+        example:
+          !include examples/filters/stores/POST_body-products.json
+    responses:
+      200:
+      400:
+        body:
+          application/json:
+            schema:
+              !include schemas/error.json
+            example:
+              !include examples/400.json
+      401:
+        body:
+          application/json:
+            schema:
+              !include schemas/error.json
+            example:
+              !include examples/401.json
+
+
+/brands/performanceLevels:
+  post:
+    is: [apiKeyed, signed]
+    body:
+      application/json:
+        example:
+          !include examples/brands/POST_body-brand_performanceLevels.json
+    responses:
+      200:
+        body:
+          application/json:
+            schema:
+              !include schemas/brands/brand_performanceLevels.json
+            example:
+              !include examples/brands/brand_performanceLevels.json
+      400:
+        body:
+          application/json:
+            schema:
+              !include schemas/error.json
+            example:
+              !include examples/400.json
+      401:
+        body:
+          application/json:
+            schema:
+              !include schemas/error.json
+            example:
+              !include examples/401.json
+
+/beerStores:
+  get:
+    description: Responds with information about all stores authorized to sell beer within the specified coordinates
+    is: [apiKeyed, signed]
+    queryParameters:
+      upperLeftBound:
+        description: A comma-separated latitude,longitude coordinate, designating the upper left corner of the bounding box. If specified, the "lowerRightBound" query parameter is required.
+        type: string
+        pattern: '^[0-9]+\.{0,1}[0-9]*,[0-9]+\.{0,1}[0-9]*$'
+        required: false
+      lowerRightBound:
+        description: A comma-separated latitude,longitude coordinate, designating the lower right corner of the bounding box. If specified, the "upperLeftBound" query parameter is required.
+        type: string
+        pattern: '^[0-9]+\.{0,1}[0-9]*,[0-9]+\.{0,1}[0-9]*$'
+        required: false
+      filterUnsold:
+        description: Flag to include accounts that are not currently sold.
+        type: string
+        enum: ['Y', 'N']
+        required: false
+        default: 'N'
+      includeStoreRank:
+        description: Flag to include store rank information.
+        type: string
+        required: false
+        enum: ['Y','N']
+        default: 'N'
+      onlyHighImpact:
+        description: Flag to indicate only high impact stores be returned. Note this only applies when either the stateId or regionId parameter is present.
+        type: string
+        required: false
+        enum: ['Y','N']
+        default: 'N'
+    responses:
+      200:
+        body:
+          application/json:
+            schema:
+              !include schemas/stores/beerStores.json
+            example:
+              !include examples/stores/beerStores.json
+      400:
+        body:
+          application/json:
+            schema:
+              !include schemas/error.json
+            example:
+              !include examples/400.json
+      401:
+        body:
+          application/json:
+            schema:
+              !include schemas/error.json
+            example:
+              !include examples/401.json

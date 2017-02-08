@@ -1,0 +1,69 @@
+{
+  "ID": "2225231",
+  "distributorName": "CHICAGO BEV SYSTEMS - IL",
+  "distributorCode": "2225231",
+  "distributorPerformance": [
+    {
+      "beerProducts": [
+        {
+          "performance": [
+            {
+              "type": "Depletion Volume Rank",
+              "measures": [
+                {
+                  "timeframe": "365 Days",
+                  "current": 1
+                }
+              ]
+            },
+            {
+              "type": "ASA",
+              "measures": [
+                {
+                  "timeframe": "90 Days",
+                  "current": 13.3507853,
+                  "yearAgo": 12.5055351
+                }
+              ]
+            },
+            {
+              "type": "APA",
+              "measures": [
+                {
+                  "timeframe": "90 Days",
+                  "current": 2.25261474,
+                  "yearAgo": 2.2196908
+                }
+              ]
+            },
+            {
+              "type": "Depletions",
+              "measures": [
+                {
+                  "timeframe": "CYTD",
+                  "current": 829809.625,
+                  "yearAgo": 734685.875
+                },
+                {
+                  "timeframe": "365 Days",
+                  "current": 1137612.62,
+                  "yearAgo": 1025442.62
+                },
+                {
+                  "timeframe": "90 Days",
+                  "current": 383157.531,
+                  "yearAgo": 327362.125
+                },
+                {
+                  "timeframe": "30 Days",
+                  "current": 123344.883,
+                  "yearAgo": 97989.5312
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "A1234B",
+  "workerType": "Employee",
+  "firstName": "John",
+  "middleName": "J",
+  "lastName": "Doe",
+  "preferredName": "Johnny Dough-Boy",
+  "dateOfBirth": "1900-01-12",
+  "timezone": "EST",
+  "preferredLanguage": "en_US",
+  "createdOnDate": "2016-02-28T16:41:41.090Z",
+  "job": {
+    "code": "123AB",
+    "title": "Doughnut Retriever",
+    "status": "Active",
+    "isManager": false,
+    "organizationName": "Doughnut Research and Technology",
+    "managerId": "234US",
+    "managerName": "Susan B Goode",
+    "company": "Constellation Brands",
+    "department": "Doughnut Retrieval",
+    "division": "Snacks",
+    "costCenterId": "SD2SY3",
+    "costCenterName": "Doughnut Retrieval - General",
+    "startDate": "1994-06-03"
+  },
+  "workContactInfo": {
+    "email": "johnnyDB@cbrands.com",
+    "phoneNumber": "11234567890",
+    "location": {
+      "name": "High Point",
+      "address1": "207 High Point Drive",
+      "city": "Victor",
+      "state_province": "NY",
+      "postalCode": "14564",
+      "country": "US"
+    }
+  },
+  "personalContactInfo": {
+    "mobilePhoneNumber": "10987654321",
+    "homePhoneNumber": "20987654321",
+    "email": "doeboy@gmail.com"
+  }
+}

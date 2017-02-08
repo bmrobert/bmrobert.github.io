@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "universalSKUCode": {
+        "type": "string"
+      },
+      "universalSKUDescription": {
+        "type": "string"
+      },
+      "upc": {
+        "type": "string"
+      },
+      "gtin": {
+        "type": "string" 
+      },
+      "itemCode": {
+        "type": "string"
+      },
+      "itemDescription": {
+        "type": "string"
+      },
+      "beverageSegmentCode": {
+        "type": "string"
+      },
+      "beverageSegmentDescription": {
+        "type": "string"
+      },
+      "brandCode": {
+        "type": "string"
+      },
+      "subBrandCode": {
+        "type": "string"
+      },
+      "varietalBlendCode": {
+        "type": "string"
+      },
+      "vintageDescription": {
+        "type": "string"
+      },
+      "typeCode": {
+        "type": "string"
+      }
+    },
+    "required": ["id"]
+  }
+}

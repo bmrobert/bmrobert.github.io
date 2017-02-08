@@ -1,0 +1,6 @@
+{
+  "httpStatus": "BAD_REQUEST",
+  "code": 400,
+  "message": "Bad request",
+  "description": "Bad request: required parameter not found in the request: signature"
+}

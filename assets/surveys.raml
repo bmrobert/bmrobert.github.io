@@ -1,0 +1,1155 @@
+#%RAML 0.8
+title: All Surveys Actions
+version: v2
+documentation:
+- title: All Surveys Actions
+  content: 'API services used by the Compass Wines Compass iOS application'
+baseUri: https://surveys-dev.herokuapp.com/{version}/
+schemas:
+- GetAllSurveysResponse: |
+    {
+      "id": "GetAllSurveysResponse",
+      "title": "Get All Surveys Response",
+      "type": "object",
+      "properties": {
+        "surveys": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "surveys"
+      ]
+    }
+- ListAllResponsesForAStoreResponse: |
+    {
+      "id": "ListAllResponsesForAStoreResponse",
+      "title": "List All Responses for a Store Response",
+      "type": "object",
+      "properties": {
+        "responses": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "responses"
+      ]
+    }
+- ListAllSurveysForAStoreResponse: |
+    {
+      "id": "ListAllSurveysForAStoreResponse",
+      "title": "List All Surveys for a Store Response",
+      "type": "object",
+      "properties": {
+        "surveys": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "surveys"
+      ]
+    }
+- CreateNewResponseForASurveyRequest: |
+    {
+      "id": "CreateNewResponseForASurveyRequest",
+      "title": "Create New Response for a Survey request",
+      "type": "object",
+      "properties": {
+        "store_src_cd": {
+          "type": "string"
+        },
+        "started_by": {
+          "type": "string"
+        },
+        "is_individual": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "store_src_cd",
+        "started_by",
+        "is_individual"
+      ]
+    }
+- CreateNewResponseForASurveyResponse: |
+    {
+      "id": "CreateNewResponseForASurveyResponse",
+      "title": "Create New Response for a Survey Response",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "sfid": {
+          "type": "string"
+        },
+        "survey_sfid": {
+          "type": "string"
+        },
+        "survey_name": {
+          "type": "string"
+        },
+        "survey_start_date": {
+          "type": "string"
+        },
+        "survey_end_date": {
+          "type": "string"
+        },
+        "survey_instructionalmessaging": {
+          "type": "string"
+        },
+        "is_individual": {
+          "type": "boolean"
+        },
+        "recordTypeName": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "started_by_sfid": {
+          "type": "string"
+        },
+        "started_by_name": {
+          "type": "string"
+        },
+        "date_started": {
+          "type": "string"
+        },
+        "submitted_by_sfid": {
+          "type": "string"
+        },
+        "submitted_by_name": {
+          "type": "string"
+        },
+        "date_submitted": {
+          "type": "string"
+        },
+        "store_sfid": {
+          "type": "string"
+        },
+        "store_src_cd": {
+          "type": "string"
+        },
+        "store_name": {
+          "type": "string"
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "sfid",
+        "survey_sfid",
+        "survey_name",
+        "survey_start_date",
+        "survey_end_date",
+        "survey_instructionalmessaging",
+        "is_individual",
+        "recordTypeName",
+        "status",
+        "started_by_sfid",
+        "started_by_name",
+        "date_started",
+        "submitted_by_sfid",
+        "submitted_by_name",
+        "date_submitted",
+        "store_sfid",
+        "store_src_cd",
+        "store_name",
+        "sections"
+      ]
+    }
+- GetAFullResponseObjectResponse: |
+    {
+      "id": "GetAFullResponseObjectResponse",
+      "title": "Get a full Response Object Response",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "sfid": {
+          "type": "string"
+        },
+        "survey_sfid": {
+          "type": "string"
+        },
+        "survey_name": {
+          "type": "string"
+        },
+        "survey_start_date": {
+          "type": "string"
+        },
+        "survey_end_date": {
+          "type": "string"
+        },
+        "survey_instructionalmessaging": {
+          "type": "string"
+        },
+        "is_individual": {
+          "type": "boolean"
+        },
+        "recordTypeName": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "started_by_sfid": {
+          "type": "string"
+        },
+        "started_by_name": {
+          "type": "string"
+        },
+        "date_started": {
+          "type": "string"
+        },
+        "submitted_by_sfid": {
+          "type": "string"
+        },
+        "submitted_by_name": {
+          "type": "string"
+        },
+        "date_submitted": {
+          "type": "string"
+        },
+        "store_sfid": {
+          "type": "string"
+        },
+        "store_src_cd": {
+          "type": "string"
+        },
+        "store_name": {
+          "type": "string"
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "sfid",
+        "survey_sfid",
+        "survey_name",
+        "survey_start_date",
+        "survey_end_date",
+        "survey_instructionalmessaging",
+        "is_individual",
+        "recordTypeName",
+        "status",
+        "started_by_sfid",
+        "started_by_name",
+        "date_started",
+        "submitted_by_sfid",
+        "submitted_by_name",
+        "date_submitted",
+        "store_sfid",
+        "store_src_cd",
+        "store_name",
+        "sections"
+      ]
+    }
+- SubmitAResponseRequest: |
+    {
+      "id": "SubmitAResponseRequest",
+      "title": "Submit a Response request",
+      "type": "object",
+      "properties": {
+        "submitted_by": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "submitted_by"
+      ]
+    }
+- SubmitAResponseResponse: |
+    {
+      "id": "SubmitAResponseResponse",
+      "title": "Submit a Response Response",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "sfid": {
+          "type": "string"
+        },
+        "survey_sfid": {
+          "type": "string"
+        },
+        "survey_name": {
+          "type": "string"
+        },
+        "survey_start_date": {
+          "type": "string"
+        },
+        "survey_end_date": {
+          "type": "string"
+        },
+        "survey_instructionalmessaging": {
+          "type": "string"
+        },
+        "is_individual": {
+          "type": "boolean"
+        },
+        "recordTypeName": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "started_by_sfid": {
+          "type": "string"
+        },
+        "started_by_name": {
+          "type": "string"
+        },
+        "date_started": {
+          "type": "string"
+        },
+        "submitted_by_sfid": {
+          "type": "string"
+        },
+        "submitted_by_name": {
+          "type": "string"
+        },
+        "date_submitted": {
+          "type": "string"
+        },
+        "store_sfid": {
+          "type": "string"
+        },
+        "store_src_cd": {
+          "type": "string"
+        },
+        "store_name": {
+          "type": "string"
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "sfid",
+        "survey_sfid",
+        "survey_name",
+        "survey_start_date",
+        "survey_end_date",
+        "survey_instructionalmessaging",
+        "is_individual",
+        "recordTypeName",
+        "status",
+        "started_by_sfid",
+        "started_by_name",
+        "date_started",
+        "submitted_by_sfid",
+        "submitted_by_name",
+        "date_submitted",
+        "store_sfid",
+        "store_src_cd",
+        "store_name",
+        "sections"
+      ]
+    }
+- EditASubmittedResponseObjectRequest: |
+    {
+      "id": "EditASubmittedResponseObjectRequest",
+      "title": "Edit a Submitted Response Object request",
+      "type": "object",
+      "properties": {
+        "operation": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "operation"
+      ]
+    }
+- EditASubmittedResponseObjectResponse: |
+    {
+      "id": "EditASubmittedResponseObjectResponse",
+      "title": "Edit a Submitted Response Object Response",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "sfid": {
+          "type": "string"
+        },
+        "survey_sfid": {
+          "type": "string"
+        },
+        "survey_name": {
+          "type": "string"
+        },
+        "survey_start_date": {
+          "type": "string"
+        },
+        "survey_end_date": {
+          "type": "string"
+        },
+        "survey_instructionalmessaging": {
+          "type": "string"
+        },
+        "is_individual": {
+          "type": "boolean"
+        },
+        "recordTypeName": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "started_by_sfid": {
+          "type": "string"
+        },
+        "started_by_name": {
+          "type": "string"
+        },
+        "date_started": {
+          "type": "string"
+        },
+        "submitted_by_sfid": {
+          "type": "string"
+        },
+        "submitted_by_name": {
+          "type": "string"
+        },
+        "date_submitted": {
+          "type": "string"
+        },
+        "store_sfid": {
+          "type": "string"
+        },
+        "store_src_cd": {
+          "type": "string"
+        },
+        "store_name": {
+          "type": "string"
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "sfid",
+        "survey_sfid",
+        "survey_name",
+        "survey_start_date",
+        "survey_end_date",
+        "survey_instructionalmessaging",
+        "is_individual",
+        "recordTypeName",
+        "status",
+        "started_by_sfid",
+        "started_by_name",
+        "date_started",
+        "submitted_by_sfid",
+        "submitted_by_name",
+        "date_submitted",
+        "store_sfid",
+        "store_src_cd",
+        "store_name",
+        "sections"
+      ]
+    }
+- ClaimAResponseSectionRequest: |
+    {
+      "id": "ClaimAResponseSectionRequest",
+      "title": "Claim a Response Section request",
+      "type": "object",
+      "properties": {
+        "operation": {
+          "type": "string"
+        },
+        "taken_by": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "operation",
+        "taken_by"
+      ]
+    }
+- ClaimAResponseSectionResponse: |
+    {
+      "id": "ClaimAResponseSectionResponse",
+      "title": "Claim a Response Section Response",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "recordTypeName": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "taken_by_sfid": {
+          "type": "string"
+        },
+        "taken_by_name": {
+          "type": "string"
+        },
+        "items": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "id",
+        "recordTypeName",
+        "status",
+        "taken_by_sfid",
+        "taken_by_name",
+        "items"
+      ]
+    }
+- SubmitAResponseSectionRequest: |
+    {
+      "id": "SubmitAResponseSectionRequest",
+      "title": "Submit a Response Section request",
+      "type": "object",
+      "properties": {
+        "spirit_license": {
+          "type": "boolean"
+        },
+        "cold_box": {
+          "type": "boolean"
+        },
+        "total_CBI_facings": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "total_facings": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "items": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "spirit_license",
+        "cold_box",
+        "total_CBI_facings",
+        "total_facings",
+        "items"
+      ]
+    }
+- SubmitAResponseSectionResponse: |
+    {
+      "id": "SubmitAResponseSectionResponse",
+      "title": "Submit a Response Section Response",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "sfid": {
+          "type": "string"
+        },
+        "survey_sfid": {
+          "type": "string"
+        },
+        "survey_name": {
+          "type": "string"
+        },
+        "survey_start_date": {
+          "type": "string"
+        },
+        "survey_end_date": {
+          "type": "string"
+        },
+        "survey_instructionalmessaging": {
+          "type": "string"
+        },
+        "is_individual": {
+          "type": "boolean"
+        },
+        "recordTypeName": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "started_by_sfid": {
+          "type": "string"
+        },
+        "started_by_name": {
+          "type": "string"
+        },
+        "date_started": {
+          "type": "string"
+        },
+        "submitted_by_sfid": {
+          "type": "string"
+        },
+        "submitted_by_name": {
+          "type": "string"
+        },
+        "date_submitted": {
+          "type": "string"
+        },
+        "store_sfid": {
+          "type": "string"
+        },
+        "store_src_cd": {
+          "type": "string"
+        },
+        "store_name": {
+          "type": "string"
+        },
+        "sections": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "sfid",
+        "survey_sfid",
+        "survey_name",
+        "survey_start_date",
+        "survey_end_date",
+        "survey_instructionalmessaging",
+        "is_individual",
+        "recordTypeName",
+        "status",
+        "started_by_sfid",
+        "started_by_name",
+        "date_started",
+        "submitted_by_sfid",
+        "submitted_by_name",
+        "date_submitted",
+        "store_sfid",
+        "store_src_cd",
+        "store_name",
+        "sections"
+      ]
+    }
+- ReportingEndpointResponsesForASurveyResponse: |
+    {
+      "id": "ReportingEndpointResponsesForASurveyResponse",
+      "title": "REPORTING ENDPOINT Responses for a Survey Response",
+      "type": "object",
+      "properties": {
+        "responses": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "responses"
+      ]
+    }
+- ReportingEndpointSummarizedResponsesForASurveyResponse: |
+    {
+      "id": "ReportingEndpointSummarizedResponsesForASurveyResponse",
+      "title": "REPORTING ENDPOINT Summarized Responses for a Survey Response",
+      "type": "object",
+      "properties": {
+        "responses": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "responses"
+      ]
+    }
+- ListResponsesForAUserResponse: |
+    {
+      "id": "ListResponsesForAUserResponse",
+      "title": "List Responses for a User Response",
+      "type": "object",
+      "properties": {
+        "responses": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "responses"
+      ]
+    }
+- ListSurveyAndAccountListsForAUserResponse: |
+    {
+      "id": "ListSurveyAndAccountListsForAUserResponse",
+      "title": "List Survey and Account Lists for a User Response",
+      "type": "object",
+      "properties": {
+        "lists": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "lists"
+      ]
+    }
+- CreateAccountListForAUserRequest: |
+    {
+      "id": "CreateAccountListForAUserRequest",
+      "title": "Create Account List for a User request",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+- CreateAccountListForAUserResponse: |
+    {
+      "id": "CreateAccountListForAUserResponse",
+      "title": "Create Account List for a User Response",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "sfid": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "recordTypeName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "sfid",
+        "name",
+        "region",
+        "recordTypeName"
+      ]
+    }
+- GetListAccountsByListIdResponse: |
+    {
+      "id": "GetListAccountsByListIdResponse",
+      "title": "Get List's Accounts by List Id Response",
+      "type": "object",
+      "properties": {
+        "stores": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "stores"
+      ]
+    }
+- UpdateListsNameByListIdRequest: |
+    {
+      "id": "UpdateListsNameByListIdRequest",
+      "title": "Update List's Name by List Id request",
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name"
+      ]
+    }
+- UpdateListsNameByListIdResponse: |
+    {
+      "id": "UpdateListsNameByListIdResponse",
+      "title": "Update List's Name by List Id Response",
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "sfid": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "region": {
+          "type": "string"
+        },
+        "recordtypename": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "sfid",
+        "name",
+        "region",
+        "recordtypename"
+      ]
+    }
+- DeleteListByListIdResponse: |
+    {
+      "id": "DeleteListByListIdResponse",
+      "title": "Delete List by List Id Response",
+      "type": "object",
+      "properties": {
+        "lists": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "lists"
+      ]
+    }
+- GetUsersResponse: |
+    {
+      "id": "GetUsersResponse",
+      "title": "Get Users Response",
+      "type": "object",
+      "properties": {
+        "users": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "users"
+      ]
+    }
+/surveys:
+  /{survey_sfid}/responses:
+    uriParameters:
+      survey_sfid:
+        type: string
+        example: a2l560000001iM0
+        required: true
+        displayName: survey_sfid
+    post:
+      body:
+        application/json:
+          schema: CreateNewResponseForASurveyRequest
+      description:
+      responses:
+        200:
+          description: Success
+          body:
+            application/json:
+              schema: CreateNewResponseForASurveyResponse
+  /surveys/{surveySfid}:
+    /responses?filter={filter}:
+      uriParameters:
+        filter:
+          type: string
+          example: visible_to_user_sfid:00556000000cJE4|store_src_cds:5222124:5225624|user_sfids:00556000000cJE4:00556000000lYjF|response_status:Submitted:In%20Progress
+          required: true
+          displayName: filter
+      get:
+        description: REPORTING ENDPOINT Responses for a Survey
+        responses:
+          200:
+            description: Success
+            body:
+              application/json:
+                schema: ReportingEndpointResponsesForASurveyResponse
+    /responses?filter={filter}|summarizeResults:True:
+      uriParameters:
+        filter:
+          type: string
+          example: visible_to_user_sfid:00556000000cJE4|store_src_cds:5222124:5225624|user_sfids:00556000000cJE4:00556000000lYjF|response_status:Submitted:In%20Progress
+          required: true
+          displayName: filter
+      get:
+        description: REPORTING ENDPOINT Summarized Responses for a Survey
+        responses:
+          200:
+            description: Success
+            body:
+              application/json:
+                schema: ReportingEndpointSummarizedResponsesForASurveyResponse
+  get:
+    description: Get All Surveys
+    responses:
+      200:
+        description: Success
+        body:
+          application/json:
+            schema: GetAllSurveysResponse
+/users/{userSfid}/responses?filter={filter}:
+  uriParameters:
+    userSfid:
+      type: string
+      example:
+      required: true
+      displayName: userSfid
+    filter:
+      description: String of search filters used to narrow down responses returned.
+      type: string
+      example: response_status:Submitted
+      required: true
+      displayName: filter
+  get:
+    description: List Responses for a User
+    responses:
+      200:
+        description: Success
+        body:
+          application/json:
+            schema: ListResponsesForAUserResponse
+/users/{userSfid}/lists:
+  uriParameters:
+    userSfid:
+      type: string
+      example: 00556000000cJE4
+      required: true
+      displayName: userSfid
+  get:
+    description: List Survey and Account Lists for a User
+    responses:
+      200:
+        description: Success
+        body:
+          application/json:
+            schema: ListSurveyAndAccountListsForAUserResponse
+  post:
+    body:
+      application/json:
+        schema: CreateAccountListForAUserRequest
+    description: Create Account List for a User
+    responses:
+      200:
+        description: Success
+        body:
+          application/json:
+            schema: CreateAccountListForAUserResponse
+/lists/{list_id}:
+  uriParameters:
+    list_id:
+      type: number
+      example: 125
+      required: true
+      displayName: list_id
+  get:
+    description: Get List's Accounts by List Id
+    responses:
+      200:
+        description: Success
+        body:
+          application/json:
+            schema: GetListAccountsByListIdResponse
+  put:
+    body:
+      application/json:
+        schema: UpdateListsNameByListIdRequest
+    description: Update List's Name by List Id
+    responses:
+      200:
+        description: Success
+        body:
+          application/json:
+            schema: UpdateListsNameByListIdResponse
+  delete:
+    description: Delete List by List Id
+    responses:
+      200:
+        description: Success
+        body:
+          application/json:
+            schema: DeleteListByListIdResponse
+  patch:
+    body: {}
+    description: Add account to or remove account from an Account List by List Id
+    responses: {}
+/usersearch:
+  get:
+    description: Get Users
+    responses:
+      200:
+        description: Success
+        body:
+          application/json:
+            schema: GetUsersResponse
+    queryParameters:
+      q:
+        description: String to search for users against firstName, lastName, and email columns of user table
+        type: string
+        example:
+        required: true
+        displayName: q
+/stores:
+  /{store_src_cd}:
+    /responses?filter={filter}:
+      uriParameters:
+        filter:
+          type: string
+          example: max_age_months:14|response_status:Submitted
+          required: true
+          displayName: filter
+      get:
+        description: List All Responses for a Store
+        responses:
+          200:
+            description: Success
+            body:
+              application/json:
+                schema: ListAllResponsesForAStoreResponse
+    /surveys:
+      get:
+        description: List All Surveys for a Store
+        responses:
+          200:
+            description: Success
+            body:
+              application/json:
+                schema: ListAllSurveysForAStoreResponse
+/responses:
+  /{response_id}:
+    uriParameters:
+      response_id:
+        type: number
+        example: 113
+        required: true
+        displayName: response_id
+    /responses/{response_id}/sections:
+      /{section_id}:
+        uriParameters:
+          section_id:
+            type: number
+            example: 126
+            required: true
+            displayName: section_id
+        patch:
+          body:
+            application/json:
+              schema: ClaimAResponseSectionRequest
+          description: Claim a Response Section
+          responses:
+            200:
+              description: Success
+              body:
+                application/json:
+                  schema: ClaimAResponseSectionResponse
+      /{response_section_id}:
+        uriParameters:
+          response_section_id:
+            type: string
+            example: 126
+            required: true
+            displayName: response_section_id
+        put:
+          body:
+            application/json:
+              schema: SubmitAResponseSectionRequest
+          description: Submit a Response Section
+          responses:
+            200:
+              description: Success
+              body:
+                application/json:
+                  schema: SubmitAResponseSectionResponse
+    get:
+      description: Get a full Response Object
+      responses:
+        200:
+          description: Success
+          body:
+            application/json:
+              schema: GetAFullResponseObjectResponse
+    put:
+      body:
+        application/json:
+          schema: SubmitAResponseRequest
+      description: Submit a Response
+      responses:
+        200:
+          description: Success
+          body:
+            application/json:
+              schema: SubmitAResponseResponse
+    patch:
+      body:
+        application/json:
+          schema: EditASubmittedResponseObjectRequest
+      description: Edit a Submitted Response Object
+      responses:
+        200:
+          description: Success
+          body:
+            application/json:
+              schema: EditASubmittedResponseObjectResponse
+  /{response_id}?userSfid={userSfid}&hard={hard}:
+    uriParameters:
+      userSfid:
+        description: User requesting the response be deleted
+        type: string
+        example: 00556000000cJE4
+        required: true
+        displayName: userSfid
+      response_id:
+        type: number
+        example: 113
+        required: true
+        displayName: response_id
+      hard:
+        description: If the response being deleted is status=Submitted and hard=true, api will actually delete the response instead of hiding it.
+        type: boolean
+        example:
+        required: false
+        displayName: hard
+    delete:
+      description: Delete a Response
+      responses: {}

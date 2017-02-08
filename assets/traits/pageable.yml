@@ -1,0 +1,15 @@
+headers:
+  X-CBI-NumberOfRecords:
+    type: integer
+    description: Specified by the API Consumer and returned from the API. Represents how many records to return. Note, this value may be overriden by the API.
+    required: false
+    default: 20
+  X-CBI-RecordOffset:
+    type: integer
+    description: Specified by the API Consumer and returned from the API. Represents where to start returning the results.
+    required: false
+    default: 0
+  X-CBI-TotalRecords:
+    type: integer
+    description: Returned from the API. Represents the total number of records found.
+    required: false

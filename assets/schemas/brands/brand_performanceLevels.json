@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "performanceLevelPerspective": {
+          "type": "string"
+        },
+        "performanceLevelMetric": {
+          "type": "string"
+        },
+        "performanceLevelPeriod": {
+          "type": "string"
+        },
+        "performanceLevelComparison": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "performanceLevelPerspective",
+        "performanceLevelMetric",
+        "performanceLevelPeriod",
+        "performanceLevelComparison"
+      ]
+    },
+    "brandPerformanceLevel": {
+      "type": "object",
+      "properties": {
+        "brandId": {
+          "type": "string"
+        },
+        "brandName": {
+          "type": "string"
+        },
+        "storePerformanceLevels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "store_src_cd": {
+                "type": "string"
+              },
+              "store_name": {
+                "type": "string"
+              },
+              "store_number": {
+                "type": "string"
+              },
+              "performanceLevel": {
+                "type": "integer"
+              },
+              "previousPerfLevel": {
+                "type": "number"
+              },
+              "previousMetricValue": {
+                "type": "number"
+              },
+              "currentMetricValue": {
+                "type": "number"
+              },
+              "comparisonDelta": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "store_src_cd",
+              "store_name",
+              "store_number",
+              "performanceLevel",
+              "previousPerfLevel",
+              "previousMetricValue",
+              "currentMetricValue",
+              "comparisonDelta"
+            ]
+          }
+        }
+      },
+      "required": [
+        "brandId",
+        "brandName",
+        "storePerformanceLevels"
+      ]
+    }
+  },
+  "required": [
+    "metadata",
+    "brandPerformanceLevel"
+  ]
+}

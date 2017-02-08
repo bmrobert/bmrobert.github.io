@@ -1,0 +1,72 @@
+[
+    {
+        "storeCode":"2224579",
+        "distributorCode":null,
+        "distributorName":null,
+        "contactType":"CBI",
+        "position":"NAM",
+        "name":"BOB DOLE",
+        "phone":"8008881234",
+        "email":"EXAMPLE@EXAMPLE.COM"
+    },
+    {
+        "storeCode":"2224579",
+        "distributorCode":null,
+        "distributorName":null,
+        "contactType":"CBI",
+        "position":"TEAM",
+        "name":"JOHN SMITH",
+        "phone":"8008881235",
+        "email":"EXAMPLE@EXAMPLE.COM"
+    },
+    {
+        "storeCode":"2224579",
+        "distributorCode":null,
+        "distributorName":null,
+        "contactType":"CBI",
+        "position":"KAM",
+        "name":"TIM TEBOW",
+        "phone":"8008881236",
+        "email":"EXAMPLE@EXAMPLE.COM"
+    },
+    {
+        "storeCode":"2224579",
+        "distributorCode":null,
+        "distributorName":null,
+        "contactType":"CBI",
+        "position":"AM",
+        "name":"PETER PENG",
+        "phone":"8008881236",
+        "email":"EXAMPLE@EXAMPLE.COM"
+    },
+    {
+        "storeCode":"2224579",
+        "distributorCode":null,
+        "distributorName":null,
+        "contactType":"CBI",
+        "position":"AR",
+        "name":"ASH KETCHUM",
+        "phone":"8008881236",
+        "email":"EXAMPLE@EXAMPLE.COM"
+    },
+    {
+        "storeCode":"2224579",
+        "distributorCode":"4563215",
+        "distributorName":"CHICAGO BEV SYSTEMS",
+        "contactType":"CBI",
+        "position":"MDM",
+        "name":"DAVID BURD",
+        "phone":"8008881236",
+        "email":"EXAMPLE@EXAMPLE.COM"
+    },
+    {
+        "storeCode":"2224579",
+        "distributorCode":"4563215",
+        "distributorName":"CHICAGO BEV SYSTEMS",
+        "contactType":"DIST",
+        "position":"DIST",
+        "name":"EUGENE PARK",
+        "phone":"8008881236",
+        "email":"EXAMPLE@EXAMPLE.COM"
+    }
+]

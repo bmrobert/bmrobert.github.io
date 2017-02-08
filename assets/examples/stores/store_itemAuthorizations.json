@@ -1,0 +1,34 @@
+[
+  {
+    "storeCode":"101743322",
+    "authorizationCode":"228-556-10010174332242370",
+    "brandCode":"228",
+    "brandName":"CORONA EXTRA",
+    "packageID":"228-556-100",
+    "packageName":"CORONA EXTRA-12 OUNCE (BEER)-BOTTLE",
+    "typeCode":"CM",
+    "typeDescription":"Corporate Mandate",
+    "setPeriodStartDate":"2016-01-01",
+    "setPeriodEndDate":"2016-12-31",
+    "resetPeriodStartDate":"2015-12-15",
+    "resetPeriodEndDate":"2015-12-31",
+    "onMenuFlag":null,
+    "additionalNotes":"Also includes ihop- but we do not call on"
+  },
+  {
+    "storeCode":"101743322",
+    "authorizationCode":"229-10210174332242370",
+    "brandCode":"229",
+    "brandName":"CORONA LIGHT",
+    "packageID":"229-102",
+    "packageName":"CORONA LIGHT-KEG",
+    "typeCode":"OS",
+    "typeDescription":"Authorized",
+    "setPeriodStartDate":"2016-01-01",
+    "setPeriodEndDate":"2016-12-31",
+    "resetPeriodStartDate":"2015-12-15",
+    "resetPeriodEndDate":"2015-12-31",
+    "onMenuFlag":null,
+    "additionalNotes":"Also includes ihop- but we do not call on"
+  }
+]

@@ -1,0 +1,26 @@
+{
+    "tdlinx_number": "5219018",
+    "store_name": "COURTYARD BY MARRIOTT",
+    "store_number": "SANCS",
+    "address": "5835 OWENS AVE",
+    "city": "CARLSBAD",
+    "state": "CA",
+    "postal_cd": "920086562",
+    "phone_no": "7604319399",
+    "latitude": 33.1226,
+    "longitude": -117.2813,
+    "last_update": 201606,
+    "high_impact": "N",
+    "unsold_account": "N",
+    "premise_type": "ON PREMISE",
+    "trade_classification": "LODGING",
+    "planning_group": "OPSA",
+    "store_rank_wine": {
+        "rank": 1,
+        "delta": 25.5,
+        "depl_fytd": 10,
+        "depl_pts_fytd": 84.5,
+        "depl_l12_mth_ty": 31,
+        "depl_pts_fytd_1ya": 59
+    }
+}

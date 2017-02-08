@@ -1,0 +1,3067 @@
+{
+  "ID": "2225231",
+  "distributorName": "CHICAGO BEV SYSTEMS - IL",
+  "distributorCode": "2225231",
+  "packagePerformance": [
+    {
+      "beerProducts": [
+        {
+          "ID": "678",
+          "brandName": "VICTORIA",
+          "brandCode": "678",
+          "beerPackages": [
+            {
+              "packageID": "80014010",
+              "packageName": "VICTORIA 6PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 2920,
+                    "yearAgo": 2888
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 4194,
+                    "yearAgo": 4263
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 1277,
+                    "yearAgo": 874
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 407,
+                    "yearAgo": 551
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 1555.4839712289663,
+                          "yearAgo": 1618.6923076923076
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 2245.8878173828125,
+                          "yearAgo": 2293.5384615384614
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 660.073716383714,
+                          "yearAgo": 635.9423076923077
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 215,
+                          "yearAgo": 249.30769230769232
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80024732",
+              "packageName": "VICTORIA 12PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 3593,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 3593,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 2233,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1248,
+                    "yearAgo": 0
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 2940.1923076923076,
+                          "yearAgo": 0
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 2940.1923076923076,
+                          "yearAgo": 0
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 1820.9615384615386,
+                          "yearAgo": 0
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 1254,
+                          "yearAgo": 0
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80014009",
+              "packageName": "VICTORIA 1/4 BL KEG",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 819.772217,
+                    "yearAgo": 2035.64038
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 1470.76379,
+                    "yearAgo": 3037.96069
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 303.109711,
+                    "yearAgo": 644.102783
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 144.666397,
+                    "yearAgo": 175.664398
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 348.5752644777298,
+                          "yearAgo": 570.39263381958
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 567.6390933990479,
+                          "yearAgo": 834.5781113147735
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 129.16583042144777,
+                          "yearAgo": 204.94179592132568
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 44.77752900123596,
+                          "yearAgo": 68.19911975860596
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013994",
+              "packageName": "VICTORIA 24PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 2270,
+                    "yearAgo": 2151
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 3149,
+                    "yearAgo": 3408
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 942,
+                    "yearAgo": 892
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 316,
+                    "yearAgo": 238
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 1713.6,
+                          "yearAgo": 1983.2
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 2525,
+                          "yearAgo": 3007.5
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 738.9,
+                          "yearAgo": 851
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 207.4,
+                          "yearAgo": 242.1
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80014011",
+              "packageName": "VICTORIA 12PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 5785,
+                    "yearAgo": 6311
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 8187,
+                    "yearAgo": 9253
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 2575,
+                    "yearAgo": 2719
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 913,
+                    "yearAgo": 630
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 5906.807692307692,
+                          "yearAgo": 5514.0192307692305
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 8626.76923076923,
+                          "yearAgo": 8066.384615384615
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 2602.5384615384614,
+                          "yearAgo": 2351.7884615384614
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 819.5,
+                          "yearAgo": 622.1538461538462
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "ID": "228",
+          "brandName": "CORONA EXTRA",
+          "brandCode": "228",
+          "beerPackages": [
+            {
+              "packageID": "80013437",
+              "packageName": "CORONA EX 12PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 13661,
+                    "yearAgo": 7738
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 15929,
+                    "yearAgo": 9146
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 8474,
+                    "yearAgo": 4497
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 2098,
+                    "yearAgo": 1034
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 4521,
+                          "yearAgo": 3257.0685686383927
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 5516.214285714285,
+                          "yearAgo": 4090.6964285714284
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 2443.3571428571427,
+                          "yearAgo": 1717.2471444266182
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 729.2857142857143,
+                          "yearAgo": 496.5
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013442",
+              "packageName": "CORONA EX 18PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 8268,
+                    "yearAgo": 7339.5
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 11001.75,
+                    "yearAgo": 9804.75
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 3796.5,
+                    "yearAgo": 3345.75
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1168.5,
+                    "yearAgo": 981
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 9287.51923076923,
+                          "yearAgo": 8332.788461538461
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 12545.807692307691,
+                          "yearAgo": 11301.634615384615
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 4269.576923076923,
+                          "yearAgo": 3862.326923076923
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 1314.3461538461538,
+                          "yearAgo": 1179.4615384615386
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013447",
+              "packageName": "CORONA EX 24PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 103463,
+                    "yearAgo": 103512
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 147558,
+                    "yearAgo": 149921
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 44176,
+                    "yearAgo": 43326
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 14154,
+                    "yearAgo": 12796
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 38252.35417829241,
+                          "yearAgo": 38864.57142857143
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 53583.925571986605,
+                          "yearAgo": 54400.78571428572
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 16910.428571428572,
+                          "yearAgo": 17551.714285714286
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 5142.5,
+                          "yearAgo": 5206.571428571428
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013435",
+              "packageName": "CORONA EX 12PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 118774,
+                    "yearAgo": 112237
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 161325,
+                    "yearAgo": 157615
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 54913,
+                    "yearAgo": 50803
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 18220,
+                    "yearAgo": 15156
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 74652.4375,
+                          "yearAgo": 74033.580078125
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 102169.95535714286,
+                          "yearAgo": 104006.00864955357
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 34558.03571428572,
+                          "yearAgo": 34376.794224330355
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 10924.214285714286,
+                          "yearAgo": 10886.347865513393
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013460",
+              "packageName": "CORONA EX 24PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 3305,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 3305,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 2158,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1222,
+                    "yearAgo": 0
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 2529.25,
+                          "yearAgo": 0
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 2529.25,
+                          "yearAgo": 0
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 1443,
+                          "yearAgo": 0
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 470.1666666666667,
+                          "yearAgo": 0
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80014002",
+              "packageName": "CORONITA 7OZ 24PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 8558,
+                    "yearAgo": 8463
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 11570,
+                    "yearAgo": 11939
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 4021,
+                    "yearAgo": 4062
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1218,
+                    "yearAgo": 1298
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 11368.5,
+                          "yearAgo": 10967.425711495536
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 15661.357142857143,
+                          "yearAgo": 14980.21142578125
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 5312.785714285715,
+                          "yearAgo": 5297.068572998047
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 1582.4285714285713,
+                          "yearAgo": 1613.8542861938477
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80014016",
+              "packageName": "CORONA EX 16OZ 6PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 7590.66211,
+                    "yearAgo": 5414.53125
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 8311.97754,
+                    "yearAgo": 5958.51758
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 4437.33301,
+                    "yearAgo": 3450.58032
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1879.99963,
+                    "yearAgo": 1309.30066
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 1875.9982162475585,
+                          "yearAgo": 1308.233952188492
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 2092.792823791504,
+                          "yearAgo": 1450.3637161254883
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 1075.7332237243652,
+                          "yearAgo": 833.5791427612305
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 435.99998664855957,
+                          "yearAgo": 298.9258720397949
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013461",
+              "packageName": "CORONA FAMILIAR 32OZ BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 17237.2598,
+                    "yearAgo": 17018.2402
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 24761.0723,
+                    "yearAgo": 24352.7246
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 7406.64404,
+                    "yearAgo": 7231.81934
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 2419.9917,
+                    "yearAgo": 2413.27295
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 11086.481236049107,
+                          "yearAgo": 10951.90988595145
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 15858.46205357143,
+                          "yearAgo": 15394.656398228237
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 4607.489964076451,
+                          "yearAgo": 4739.207207815988
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 1472.472785949707,
+                          "yearAgo": 1521.5733947753906
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013458",
+              "packageName": "CORONA EX 6PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 784,
+                    "yearAgo": 1045
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 1200,
+                    "yearAgo": 1955
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 245,
+                    "yearAgo": 465
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 128,
+                    "yearAgo": 222
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 243.42857142857142,
+                          "yearAgo": 344.42857142857144
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 368.2857142857143,
+                          "yearAgo": 553.2857142857143
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 98.28571428571429,
+                          "yearAgo": 179.85714285714286
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 25.714285714285715,
+                          "yearAgo": 61.857142857142854
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013968",
+              "packageName": "CORONITA 7OZ 6PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 6476,
+                    "yearAgo": 6208
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 9037,
+                    "yearAgo": 8571
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 2710,
+                    "yearAgo": 2628
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 883,
+                    "yearAgo": 864
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 2740.035714285714,
+                          "yearAgo": 2514.035714285714
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 3765.3571428571427,
+                          "yearAgo": 3470.1428571428573
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 1170.4464285714287,
+                          "yearAgo": 1130.8214285714287
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 366.9642857142857,
+                          "yearAgo": 343.76785714285717
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80014014",
+              "packageName": "CORONA EX 24OZ CAN LSE",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 4735,
+                    "yearAgo": 4657
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 5548,
+                    "yearAgo": 5310
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 2637,
+                    "yearAgo": 2960
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 478,
+                    "yearAgo": 81
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 1445.4883335658483,
+                          "yearAgo": 990.4828578404018
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 1765.7626211983818,
+                          "yearAgo": 1257.7571411132813
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 784.8809509277344,
+                          "yearAgo": 519.8457140241351
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 261.57142857142856,
+                          "yearAgo": 109.07142857142857
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80026873",
+              "packageName": "CORONA EX 18PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 819,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 819,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 393,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 149.25,
+                    "yearAgo": 0
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 658.0178571428571,
+                          "yearAgo": 0
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 658.0178571428571,
+                          "yearAgo": 0
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 385.92857142857144,
+                          "yearAgo": 0
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 82.44642857142857,
+                          "yearAgo": 0
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013457",
+              "packageName": "CORONA EX 6PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 46099,
+                    "yearAgo": 43409
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 64108,
+                    "yearAgo": 61019
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 20320,
+                    "yearAgo": 18107
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 6517,
+                    "yearAgo": 4920
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 20638.7109375,
+                          "yearAgo": 19594.920061383928
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 28870.31808035714,
+                          "yearAgo": 27778.51785714286
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 8674.360107421875,
+                          "yearAgo": 8242.15785435268
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 2757.342267717634,
+                          "yearAgo": 2519.2321428571427
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013444",
+              "packageName": "CORONA EX 24OZ BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 14458,
+                    "yearAgo": 14360
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 20497,
+                    "yearAgo": 20444
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 6186,
+                    "yearAgo": 6010
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 2000,
+                    "yearAgo": 1985
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 4488.55952671596,
+                          "yearAgo": 4470.364283970424
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 6368.108101981027,
+                          "yearAgo": 6361.662859235491
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 1893.0654776436943,
+                          "yearAgo": 1905.7028590611048
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 606.7857142857143,
+                          "yearAgo": 613
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "ID": "581",
+          "brandName": "TSINGTAO",
+          "brandCode": "581",
+          "beerPackages": [
+            {
+              "packageID": "80013988",
+              "packageName": "TSINGTAO 12PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 916,
+                    "yearAgo": 1114
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 1377,
+                    "yearAgo": 1671
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 61,
+                    "yearAgo": 284
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 0,
+                    "yearAgo": 98
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 331.5,
+                          "yearAgo": 329.125
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 456.125,
+                          "yearAgo": 465.625
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 14.875,
+                          "yearAgo": 93.125
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 0,
+                          "yearAgo": 37.375
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013987",
+              "packageName": "TSINGTAO 21.6OZ BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 0,
+                    "yearAgo": 99.9000015
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 42.2999992,
+                    "yearAgo": 153.899994
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 0,
+                    "yearAgo": 1.79999995
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 0,
+                    "yearAgo": 0
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 4.949999809265137,
+                          "yearAgo": 69.30000114440918
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 35.09999942779541,
+                          "yearAgo": 108.89999771118164
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 0,
+                          "yearAgo": 3.149999976158142
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 0,
+                          "yearAgo": 0
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013973",
+              "packageName": "TSINGTAO 6PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 3084,
+                    "yearAgo": 4264
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 5250,
+                    "yearAgo": 6207
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 347,
+                    "yearAgo": 1641
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 0,
+                    "yearAgo": 512
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 490.40384615384613,
+                          "yearAgo": 634.2884615384615
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 827.9423076923077,
+                          "yearAgo": 965.2884615384615
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 56.76923076923077,
+                          "yearAgo": 233.51923076923077
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 0,
+                          "yearAgo": 82.07692307692308
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "ID": "867",
+          "brandName": "MODELO CHELADA",
+          "brandCode": "867",
+          "beerPackages": [
+            {
+              "packageID": "80019746",
+              "packageName": "MODELO CHELADA 24OZ CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 12357,
+                    "yearAgo": 8482
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 17551,
+                    "yearAgo": 12247
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 5904,
+                    "yearAgo": 3706
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1970,
+                    "yearAgo": 401
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 8871.301344651441,
+                          "yearAgo": 7522.386925330529
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 12478.694411057691,
+                          "yearAgo": 10905.463848407451
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 4100.057729867788,
+                          "yearAgo": 3299.4892296424277
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 1346.8846318171575,
+                          "yearAgo": 887.2892315204327
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "ID": "437",
+          "brandName": "NEGRA MODELO",
+          "brandCode": "437",
+          "beerPackages": [
+            {
+              "packageID": "80014060",
+              "packageName": "NEGRA MODELO 1/4 BL KEG",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 1715.32227,
+                    "yearAgo": 1498.31396
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 2624.6438,
+                    "yearAgo": 2373.19165
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 602.774292,
+                    "yearAgo": 599.325623
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 199.776505,
+                    "yearAgo": 175.664398
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 584.9249198219993,
+                          "yearAgo": 625.9414107582786
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 882.7089682492343,
+                          "yearAgo": 917.462924263694
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 206.35210169445384,
+                          "yearAgo": 230.77480368180707
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 63.5651912689209,
+                          "yearAgo": 71.70614563335072
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013986",
+              "packageName": "NEGRA MODELO 12PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 8695,
+                    "yearAgo": 7858
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 11953,
+                    "yearAgo": 10986
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 3594,
+                    "yearAgo": 3427
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1156,
+                    "yearAgo": 1072
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 6891.615384615385,
+                          "yearAgo": 5990.384615384615
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 9672.461538461539,
+                          "yearAgo": 8492.76923076923
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 2815.5384615384614,
+                          "yearAgo": 2576.1153846153848
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 898.1153846153846,
+                          "yearAgo": 793.5384615384615
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013977",
+              "packageName": "NEGRA MODELO 6PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 9925,
+                    "yearAgo": 9796
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 14192,
+                    "yearAgo": 13824
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 3819,
+                    "yearAgo": 3976
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1236,
+                    "yearAgo": 1248
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 3366.8076923076924,
+                          "yearAgo": 3059.7884615384614
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 4779.996920072115,
+                          "yearAgo": 4286.288461538462
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 1339.5192307692307,
+                          "yearAgo": 1251.6346153846155
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 430.2692307692308,
+                          "yearAgo": 395.9230769230769
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80014012",
+              "packageName": "NEGRA MODELO 1/2 BL KEG",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": -6.8888998,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": -6.8888998,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": -6.8888998,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 0,
+                    "yearAgo": 0
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 179.1113945643107,
+                          "yearAgo": 142.37059529622397
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 275.5559949874878,
+                          "yearAgo": 220.44479846954346
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 62.000102043151855,
+                          "yearAgo": 43.62969970703125
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 25.259300231933594,
+                          "yearAgo": 16.074100494384766
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "ID": "229",
+          "brandName": "CORONA LIGHT",
+          "brandCode": "229",
+          "beerPackages": [
+            {
+              "packageID": "80013473",
+              "packageName": "CORONA LT 24PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 12374,
+                    "yearAgo": 13257
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 16507,
+                    "yearAgo": 18629
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 5438,
+                    "yearAgo": 5690
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1845,
+                    "yearAgo": 1606
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 4723.166666666667,
+                          "yearAgo": 3127.75
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 5891.666666666667,
+                          "yearAgo": 4339
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 2111.4166666666665,
+                          "yearAgo": 1468
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 637.8333333333334,
+                          "yearAgo": 419
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013469",
+              "packageName": "CORONA LT 18PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 1134.75,
+                    "yearAgo": 876.75
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 1468.5,
+                    "yearAgo": 1073.25
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 611.25,
+                    "yearAgo": 536.25
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 214.5,
+                    "yearAgo": 174.75
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 1064.125,
+                          "yearAgo": 855.875
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 1408.25,
+                          "yearAgo": 1123.1875
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 546.25,
+                          "yearAgo": 457.375
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 150.3125,
+                          "yearAgo": 134.4375
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013478",
+              "packageName": "CORONA LT 6PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 9453,
+                    "yearAgo": 8841
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 12523,
+                    "yearAgo": 11616
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 4602,
+                    "yearAgo": 4025
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1406,
+                    "yearAgo": 1204
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 3849.776785714286,
+                          "yearAgo": 3581.9464285714284
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 5222.830357142857,
+                          "yearAgo": 4805.222865513393
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 1749.7053484235491,
+                          "yearAgo": 1569.982142857143
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 544.6339198521206,
+                          "yearAgo": 482.57142857142856
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013464",
+              "packageName": "CORONA LT 12PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 17645,
+                    "yearAgo": 16339
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 22508,
+                    "yearAgo": 21093
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 9212,
+                    "yearAgo": 8305
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 2869,
+                    "yearAgo": 2424
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 13574.464285714286,
+                          "yearAgo": 13127.28857421875
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 17846.48214285714,
+                          "yearAgo": 17558.39571707589
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 6776.357142857143,
+                          "yearAgo": 6559.714285714285
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 2035.7142857142858,
+                          "yearAgo": 1965.7857142857142
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013992",
+              "packageName": "CORONA LIGHT 1/2 BL KEG",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 7205.78467,
+                    "yearAgo": 4457.11816
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 9610.01074,
+                    "yearAgo": 4457.11816
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 3237.78101,
+                    "yearAgo": 2342.22607
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 861.112183,
+                    "yearAgo": 523.556396
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 1897.6264149592473,
+                          "yearAgo": 1547.8828383225662
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 2533.5248876718374,
+                          "yearAgo": 1547.8828383225662
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 822.4284324645996,
+                          "yearAgo": 780.0354402982272
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 241.11146009885348,
+                          "yearAgo": 218.8550538283128
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013466",
+              "packageName": "CORONA LT 12PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 5025,
+                    "yearAgo": 3522
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 5717,
+                    "yearAgo": 4152
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 3336,
+                    "yearAgo": 2109
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 469,
+                    "yearAgo": 617
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 1464.3214285714287,
+                          "yearAgo": 987.4285714285714
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 1840.357142857143,
+                          "yearAgo": 1224.740713936942
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 811.25,
+                          "yearAgo": 543.8571428571429
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 236.14285714285714,
+                          "yearAgo": 180.14285714285714
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "ID": "471",
+          "brandName": "PACIFICO",
+          "brandCode": "471",
+          "beerPackages": [
+            {
+              "packageID": "80013995",
+              "packageName": "PACIFICO 1/4 BL KEG",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 1804.88196,
+                    "yearAgo": 3058.6272
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 2865.75708,
+                    "yearAgo": 4081.61401
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 854.22052,
+                    "yearAgo": 1498.31396
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 285.888397,
+                    "yearAgo": 427.105591
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 401.2751145362854,
+                          "yearAgo": 531.0116669336954
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 591.2911802927653,
+                          "yearAgo": 735.0923665364584
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 181.98054234186807,
+                          "yearAgo": 236.80249732732773
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 51.379341741402946,
+                          "yearAgo": 63.72139938672384
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013971",
+              "packageName": "PACIFICO 6PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 9325,
+                    "yearAgo": 9030
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 12822,
+                    "yearAgo": 12376
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 3932,
+                    "yearAgo": 3895
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1227,
+                    "yearAgo": 1164
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 1750.25,
+                          "yearAgo": 1663.2692307692307
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 2433.8846153846152,
+                          "yearAgo": 2278.423076923077
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 738.2884615384615,
+                          "yearAgo": 713
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 232.90384615384616,
+                          "yearAgo": 217.07692307692307
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80014008",
+              "packageName": "PACIFICO 1/2 BL KEG",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 3334.22729,
+                    "yearAgo": 1832.44739
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 4085.11743,
+                    "yearAgo": 2631.55981
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 1591.33582,
+                    "yearAgo": 792.223511
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 447.778503,
+                    "yearAgo": 151.555801
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 3334.227294921875,
+                          "yearAgo": 1832.4473876953125
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 4085.117431640625,
+                          "yearAgo": 2631.559814453125
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 1591.3358154296875,
+                          "yearAgo": 792.2235107421875
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 447.77850341796875,
+                          "yearAgo": 151.55580139160156
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013972",
+              "packageName": "PACIFICO 12PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 7767,
+                    "yearAgo": 7346
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 10335,
+                    "yearAgo": 9805
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 3626,
+                    "yearAgo": 3380
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1188,
+                    "yearAgo": 1003
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 4204.823711688702,
+                          "yearAgo": 4071.1153846153848
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 5804.362173227163,
+                          "yearAgo": 5595.423076923077
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 1879.6314086914063,
+                          "yearAgo": 1906.6923076923076
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 616.25,
+                          "yearAgo": 615.6923076923077
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "ID": "416",
+          "brandName": "MODELO ESPECIAL",
+          "brandCode": "416",
+          "beerPackages": [
+            {
+              "packageID": "80018933",
+              "packageName": "MODELO ESP 16OZ 4PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 2168.00073,
+                    "yearAgo": 870.644897
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 2663.98828,
+                    "yearAgo": 1302.63416
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 940.001709,
+                    "yearAgo": 362.657593
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 368.000488,
+                    "yearAgo": 94.664299
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 2007.4312341863458,
+                          "yearAgo": 1058.6971033269708
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 2805.7690804221415,
+                          "yearAgo": 1498.703090320934
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 926.3633852871982,
+                          "yearAgo": 562.0392691872337
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 378.66152225841176,
+                          "yearAgo": 192.17578749223188
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013993",
+              "packageName": "MODELO ESP 24OZ BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 4512,
+                    "yearAgo": 4618
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 6573,
+                    "yearAgo": 6307
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 1901,
+                    "yearAgo": 1965
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 678,
+                    "yearAgo": 685
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 2209.717970628005,
+                          "yearAgo": 1900.2769211989182
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 3133.0010422926684,
+                          "yearAgo": 2749.347693810096
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 957.4487234262319,
+                          "yearAgo": 821.0584622896635
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 325.9166694054237,
+                          "yearAgo": 287.75692279522235
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013522",
+              "packageName": "MODELO ESP 24OZ CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 22970,
+                    "yearAgo": 19245
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 29911,
+                    "yearAgo": 26557
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 10907,
+                    "yearAgo": 8609
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 3171,
+                    "yearAgo": 2616
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 10209.83368389423,
+                          "yearAgo": 8812.278470552885
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 14222.607534555289,
+                          "yearAgo": 12484.376915564904
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 4471.679537259615,
+                          "yearAgo": 3734.5284611628604
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 1459.448737511268,
+                          "yearAgo": 1198.6923076923076
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013984",
+              "packageName": "MODELO ESP 24PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 63731,
+                    "yearAgo": 52408
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 84877,
+                    "yearAgo": 73066
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 32952,
+                    "yearAgo": 24062
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 10904,
+                    "yearAgo": 7979
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 54665.435997596156,
+                          "yearAgo": 51623.437800480766
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 76307.39543269231,
+                          "yearAgo": 72557.64603365384
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 26090.701923076922,
+                          "yearAgo": 25206.65234375
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 8486.73076923077,
+                          "yearAgo": 8302.346905048076
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013515",
+              "packageName": "MODELO ESP 1/2 BL",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 2810.66772,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 3472.0022,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 1274.44495,
+                    "yearAgo": 0
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 330.666901,
+                    "yearAgo": 0
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 2243.6608662238486,
+                          "yearAgo": 1428.6518795306865
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 3103.7133466280425,
+                          "yearAgo": 2034.345105097844
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 830.9070648780236,
+                          "yearAgo": 527.2658051710862
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 266.0174765953651,
+                          "yearAgo": 160.03444458888129
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013520",
+              "packageName": "MODELO ESP 18PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 8506.5,
+                    "yearAgo": 6546.75
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 11670,
+                    "yearAgo": 9068.25
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 3968.25,
+                    "yearAgo": 2844.75
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 1332.75,
+                    "yearAgo": 1020
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 12078.663461538461,
+                          "yearAgo": 11016.634615384615
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 17049.83653846154,
+                          "yearAgo": 15464.188852163461
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 5426.032057542067,
+                          "yearAgo": 4980.576923076923
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 1717.0961538461538,
+                          "yearAgo": 1641.6923076923076
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013970",
+              "packageName": "MODELO ESP 6PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 30295,
+                    "yearAgo": 25798
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 42412,
+                    "yearAgo": 36475
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 14144,
+                    "yearAgo": 11778
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 4280,
+                    "yearAgo": 3710
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 14155.643845778246,
+                          "yearAgo": 13226.727692824144
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 20209.643845778246,
+                          "yearAgo": 18636.804615901066
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 6306.2307692307695,
+                          "yearAgo": 5960.958461468036
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 2023.8461538461538,
+                          "yearAgo": 1948.2115384615386
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013978",
+              "packageName": "MODELO ESP 6PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 27475,
+                    "yearAgo": 24325
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 38792,
+                    "yearAgo": 33432
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 12185,
+                    "yearAgo": 11005
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 4035,
+                    "yearAgo": 3612
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 12867.233961838941,
+                          "yearAgo": 11199.75
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 18156.81092247596,
+                          "yearAgo": 15500.753079927885
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 5578.5,
+                          "yearAgo": 5071.25
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 1799.9423076923076,
+                          "yearAgo": 1653.75
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013518",
+              "packageName": "MODELO ESP 12PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 103262,
+                    "yearAgo": 95541
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 146279,
+                    "yearAgo": 133313
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 46888,
+                    "yearAgo": 43013
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 15098,
+                    "yearAgo": 14130
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 61584.61215444712,
+                          "yearAgo": 58879.56460336538
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 88114.26517427884,
+                          "yearAgo": 82677.61613581731
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 27292.57050030048,
+                          "yearAgo": 26434.477689302883
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 8796.878192608174,
+                          "yearAgo": 8687.496920072115
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80014006",
+              "packageName": "MODELO ESP 24OZ 3PK CAN",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 1229,
+                    "yearAgo": 650
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 3182,
+                    "yearAgo": 1036
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 592,
+                    "yearAgo": 132
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 179,
+                    "yearAgo": 121
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 1212.3636363636363,
+                          "yearAgo": 1060.8181818181818
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 1852.3636363636363,
+                          "yearAgo": 1489.2727272727273
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 512.6363636363636,
+                          "yearAgo": 467.6363636363636
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 157.0909090909091,
+                          "yearAgo": 164.0909090909091
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013517",
+              "packageName": "MODELO ESP 12PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 63092,
+                    "yearAgo": 48070
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 86468,
+                    "yearAgo": 67562
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 29440,
+                    "yearAgo": 20806
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 9521,
+                    "yearAgo": 5034
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 55031.16661658654,
+                          "yearAgo": 45787.596153846156
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 76397.51292067308,
+                          "yearAgo": 65504.557692307695
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 24887.092923677883,
+                          "yearAgo": 19902.46153846154
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 7821.535268930288,
+                          "yearAgo": 5627.807692307692
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80014026",
+              "packageName": "MODELO ESP 24PK BT",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 15950,
+                    "yearAgo": 7330
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 19839,
+                    "yearAgo": 10274
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 7243,
+                    "yearAgo": 3280
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 2260,
+                    "yearAgo": 1067
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 22055.53846153846,
+                          "yearAgo": 14127.205387995793
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 30121.076923076922,
+                          "yearAgo": 18770.051532451922
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 9674,
+                          "yearAgo": 7510.057692307692
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 3040.4615384615386,
+                          "yearAgo": 2551.2115384615386
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "packageID": "80013516",
+              "packageName": "MODELO ESP 1/4 KEG",
+              "growthDsc": "ORGANIC",
+              "performance": {
+                "type": "Depletions",
+                "measures": [
+                  {
+                    "timeframe": "CYTD",
+                    "current": 2438.65869,
+                    "yearAgo": 2824.40796
+                  },
+                  {
+                    "timeframe": "365 Days",
+                    "current": 4484.63232,
+                    "yearAgo": 3675.1748
+                  },
+                  {
+                    "timeframe": "90 Days",
+                    "current": 757.775513,
+                    "yearAgo": 1281.31677
+                  },
+                  {
+                    "timeframe": "30 Days",
+                    "current": 247.999207,
+                    "yearAgo": 464.993988
+                  }
+                ],
+                "performanceComparisons": [
+                  {
+                    "Ultimate Parent": {
+                      "ID": "1205",
+                      "name": "DMA:CHICAGO IL",
+                      "averages": [
+                        {
+                          "timeframe": "CYTD",
+                          "current": 1120.233760540302,
+                          "yearAgo": 1186.728272658128
+                        },
+                        {
+                          "timeframe": "365 Days",
+                          "current": 1689.0897028996394,
+                          "yearAgo": 1576.4753558819111
+                        },
+                        {
+                          "timeframe": "90 Days",
+                          "current": 448.57069543691784,
+                          "yearAgo": 495.1987345768855
+                        },
+                        {
+                          "timeframe": "30 Days",
+                          "current": 133.80277666678796,
+                          "yearAgo": 147.57929347111627
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

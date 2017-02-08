@@ -1,0 +1,374 @@
+{  
+   "ID":"5110665",
+   "storeName":"Erics Office Restaurant",
+   "storeCode":"5110665",
+   "storeNumber": "SANCS",
+   "beerDistributorCode": "2224570",
+   "beerDistributorName": "MARKSTEIN BEV CO INC - CA (SAN MARCOS)",
+   "address": "5835 OWENS AVE",
+   "city": "CARLSBAD",
+   "state": "CA",
+   "postalCode": "920086562",
+   "phoneNumber": "7604319399",
+   "latitude": "33.1225999999999985",
+   "longitude": "-117.281300000000002",
+   "highImpact": "N",
+   "unsoldAccount": "N",
+   "premiseType": "ON PREMISE",
+   "tradeClassification": "LODGING",
+   "beerTradeClassification": "ALL OTHER",
+   "planningGroup": "OPSA",
+   "lastUpdate": "201606",
+   "beerLastUpdate": "2016-04-05",
+   "beerFirstSoldDate": "2012-01-19",
+   "beerLastSoldDate": "2016-02-22",
+   "storePerformance":[  
+      {  
+         "beerProducts":[  
+            {  
+               "performance":[  
+                  {  
+                     "type":"Depletion Volume Rank",
+                     "measures":[  
+                        {  
+                           "timeframe":"365 Days",
+                           "current":3
+                        }
+                     ]
+                  },
+                  {  
+                     "type":"ASA/APA",
+                     "measures":[  
+                        {  
+                           "timeframe":"90 Days",
+                           "current":2,
+                           "yearAgo":2
+                        }
+                     ]
+                  },
+                  {  
+                     "type":"Depletions",
+                     "measures":[  
+                        {  
+                           "timeframe":"CYTD",
+                           "current":0,
+                           "yearAgo":0
+                        },
+                        {  
+                           "timeframe":"365 Days",
+                           "current":39,
+                           "yearAgo":31
+                        },
+                        {  
+                           "timeframe":"90 Days",
+                           "current":5,
+                           "yearAgo":6
+                        },
+                        {  
+                           "timeframe":"30 Days",
+                           "current":0,
+                           "yearAgo":0
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {  
+         "wineProducts":[  
+            {  
+               "performance":[  
+                  {  
+                     "type":"Depletions",
+                     "dataType":"RAD",
+                     "measures":[  
+                        {  
+                           "timeframe":"CCM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"PCM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"L3CM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"L6CM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"L12CM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"M",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"MTD",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FY",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FYTD",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FYTCCM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FYTPCM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FYTD",
+                           "current":180.445,
+                           "yearAgo":247.449,
+                           "similar":64.8296
+                        },
+                        {  
+                           "timeframe":"12 Months",
+                           "current":374.547,
+                           "yearAgo":418.877,
+                           "similar":17.1985
+                        },
+                        {  
+                           "timeframe":"6 Months",
+                           "current":156.62,
+                           "yearAgo":219.449,
+                           "similar":8.17121
+                        },
+                        {  
+                           "timeframe":"3 Months",
+                           "current":80.1065,
+                           "yearAgo":107.889,
+                           "similar":3.43558
+                        }
+                     ]
+                  },
+                  {  
+                     "type":"Depletion Points",
+                     "measures":[  
+                        {  
+                           "timeframe":"CCM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"PCM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"L3CM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"L6CM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"L12CM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"M",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"MTD",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FY",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FYTD",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FYTCCM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FYTPCM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FYTD",
+                           "current":1211,
+                           "yearAgo":1484.25,
+                           "similar":64.8296
+                        },
+                        {  
+                           "timeframe":"12 Months",
+                           "current":2350.38,
+                           "yearAgo":2588.85,
+                           "similar":120.157,
+                           "rank":3
+                        },
+                        {  
+                           "timeframe":"6 Months",
+                           "current":942.032,
+                           "yearAgo":1345.25,
+                           "similar":55.8558
+                        },
+                        {  
+                           "timeframe":"3 Months",
+                           "current":497.973,
+                           "yearAgo":594.221,
+                           "similar":23.4697
+                        }
+                     ]
+                  },
+                  {  
+                     "type":"Points of Distribution",
+                     "measures":[  
+                        {  
+                           "timeframe":"CCM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"PCM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"L3CM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"L6CM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"L12CM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"M",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"MTD",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FY",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FYTD",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FYTCCM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FYTPCM",
+                           "current":0,
+                           "yearAgo":0,
+                           "similar":0
+                        },
+                        {  
+                           "timeframe":"FYTD",
+                           "current":24,
+                           "yearAgo":27,
+                           "similar":1.35733
+                        },
+                        {  
+                           "timeframe":"12 Months",
+                           "current":25,
+                           "yearAgo":29,
+                           "similar":1.81511
+                        },
+                        {  
+                           "timeframe":"6 Months",
+                           "current":23,
+                           "yearAgo":26,
+                           "similar":1.26774
+                        },
+                        {  
+                           "timeframe":"3 Months",
+                           "current":17,
+                           "yearAgo":23,
+                           "similar":0.820507
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

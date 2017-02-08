@@ -1,0 +1,157 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "type": "string"
+    },
+    "distributorName": {
+      "type": "string"
+    },
+    "distributorCode": {
+      "type": "string"
+    },
+    "packagePerformance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "beerProducts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "ID": {
+                  "type": "string"
+                },
+                "brandName": {
+                  "type": "string"
+                },
+                "brandCode": {
+                  "type": "string"
+                },
+                "beerPackages": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "packageID": {
+                        "type": "string"
+                      },
+                      "packageName": {
+                        "type": "string"
+                      },
+                      "growthDsc": {
+                        "type": "string"
+                      },
+                      "performance": {
+                        "type": "object",
+                        "properties": {
+                          "type": {
+                            "type": "string"
+                          },
+                          "measures": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "timeframe": {
+                                  "type": "string"
+                                },
+                                "current": {
+                                  "type": "number"
+                                },
+                                "yearAgo": {
+                                  "type": "number"
+                                }
+                              },
+                              "required": [
+                                "timeframe",
+                                "yearAgo"
+                              ]
+                            }
+                          },
+                          "performanceComparisons": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "Ultimate Parent": {
+                                  "type": "object",
+                                  "properties": {
+                                    "ID": {
+                                      "type": "string"
+                                    },
+                                    "name": {
+                                      "type": "string"
+                                    },
+                                    "averages": {
+                                      "type": "array",
+                                      "items": {
+                                        "type": "object",
+                                        "properties": {
+                                          "timeframe": {
+                                            "type": "string"
+                                          },
+                                          "current": {
+                                            "type": "number"
+                                          },
+                                          "yearAgo": {
+                                            "type": "number"
+                                          }
+                                        },
+                                        "required": [
+                                          "timeframe",
+                                          "current",
+                                          "yearAgo"
+                                        ]
+                                      }
+                                    }
+                                  },
+                                  "required": [
+                                    "ID",
+                                    "name",
+                                    "averages"
+                                  ]
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "required": [
+                          "type",
+                          "measures",
+                          "performanceComparisons"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "packageID",
+                      "packageName",
+                      "growthDsc"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "ID",
+                "brandName",
+                "brandCode",
+                "beerPackages"
+              ]
+            }
+          }
+        },
+        "required": [
+          "beerProducts"
+        ]
+      }
+    }
+  },
+  "required": [
+    "ID",
+    "distributorName",
+    "distributorCode",
+    "packagePerformance"
+  ]
+}

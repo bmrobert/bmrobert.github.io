@@ -1,0 +1,26 @@
+[  
+   {  
+      "tdlinx_number":"5630132",
+      "store_name":"OMNI RESORT",
+      "store_number":"501",
+      "address":"1766 HOMESTEAD DR",
+      "city":"HOT SPRINGS",
+      "state":"VA",
+      "postal_cd":"244452910",
+      "phone_no":"5408391766",
+      "latitude":37.9964999999999975,
+      "longitude":-79.829899999999995,
+      "last_update":201606,
+      "high_impact":"N/A",
+      "premise_type":"ON PREMISE",
+      "trade_classification":"ALL OTHER",
+      "planning_group":"N/A",
+      "store_rank_beer":{  
+         "volume_rank":2.0000,
+         "total_sales_r365":315.0000,
+         "total_sales_r365_ya":314.0000,
+         "eff_distribution_l90_ly":3,
+         "eff_distribution_l90_ty":2
+      }
+   }
+]

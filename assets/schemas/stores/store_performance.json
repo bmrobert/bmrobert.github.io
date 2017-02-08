@@ -1,0 +1,268 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "storeID": {
+      "type": "string"
+    },
+    "summaryLevel": {
+      "type": "string"
+    },
+    "summaryTypes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summaryTimes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summaryComparisons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "patternProperties": {
+          "^[a-zA-Z0-9]*$":{
+          "type": "object",
+          "properties": {
+            "Depletion Points": {
+              "type": "object",
+              "properties": {
+                "FYTD": {
+                  "type": "integer"
+                },
+                "12 Months": {
+                  "type": "integer"
+                },
+                "6 Months": {
+                  "type": "integer"
+                },
+                "3 Months": {
+                  "type": "integer"
+                },
+                "Year Ago": {
+                  "type": "object",
+                  "properties": {
+                    "FYTD": {
+                      "type": "integer"
+                    },
+                    "12 Months": {
+                      "type": "integer"
+                    },
+                    "6 Months": {
+                      "type": "integer"
+                    },
+                    "3 Months": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "FYTD",
+                    "12 Months",
+                    "6 Months",
+                    "3 Months"
+                  ]
+                },
+                "Similar Accounts": {
+                  "type": "object",
+                  "properties": {
+                    "FYTD": {
+                      "type": "number"
+                    },
+                    "12 Months": {
+                      "type": "number"
+                    },
+                    "6 Months": {
+                      "type": "number"
+                    },
+                    "3 Months": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "FYTD",
+                    "12 Months",
+                    "6 Months",
+                    "3 Months"
+                  ]
+                }
+              },
+              "required": [
+                "FYTD",
+                "12 Months",
+                "6 Months",
+                "3 Months",
+                "Year Ago",
+                "Similar Accounts"
+              ]
+            },
+            "Depletions": {
+              "type": "object",
+              "properties": {
+                "FYTD": {
+                  "type": "integer"
+                },
+                "12 Months": {
+                  "type": "integer"
+                },
+                "6 Months": {
+                  "type": "integer"
+                },
+                "3 Months": {
+                  "type": "integer"
+                },
+                "Year Ago": {
+                  "type": "object",
+                  "properties": {
+                    "FYTD": {
+                      "type": "integer"
+                    },
+                    "12 Months": {
+                      "type": "integer"
+                    },
+                    "6 Months": {
+                      "type": "integer"
+                    },
+                    "3 Months": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "FYTD",
+                    "12 Months",
+                    "6 Months",
+                    "3 Months"
+                  ]
+                },
+                "Similar Accounts": {
+                  "type": "object",
+                  "properties": {
+                    "FYTD": {
+                      "type": "number"
+                    },
+                    "12 Months": {
+                      "type": "number"
+                    },
+                    "6 Months": {
+                      "type": "number"
+                    },
+                    "3 Months": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "FYTD",
+                    "12 Months",
+                    "6 Months",
+                    "3 Months"
+                  ]
+                }
+              },
+              "required": [
+                "FYTD",
+                "12 Months",
+                "6 Months",
+                "3 Months",
+                "Year Ago",
+                "Similar Accounts"
+              ]
+            },
+            "Points of Distribution": {
+              "type": "object",
+              "properties": {
+                "FYTD": {
+                  "type": "integer"
+                },
+                "12 Months": {
+                  "type": "integer"
+                },
+                "6 Months": {
+                  "type": "integer"
+                },
+                "3 Months": {
+                  "type": "integer"
+                },
+                "Year Ago": {
+                  "type": "object",
+                  "properties": {
+                    "FYTD": {
+                      "type": "integer"
+                    },
+                    "12 Months": {
+                      "type": "integer"
+                    },
+                    "6 Months": {
+                      "type": "integer"
+                    },
+                    "3 Months": {
+                      "type": "integer"
+                    }
+                  },
+                  "required": [
+                    "FYTD",
+                    "12 Months",
+                    "6 Months",
+                    "3 Months"
+                  ]
+                },
+                "Similar Accounts": {
+                  "type": "object",
+                  "properties": {
+                    "FYTD": {
+                      "type": "number"
+                    },
+                    "12 Months": {
+                      "type": "number"
+                    },
+                    "6 Months": {
+                      "type": "number"
+                    },
+                    "3 Months": {
+                      "type": "number"
+                    }
+                  },
+                  "required": [
+                    "FYTD",
+                    "12 Months",
+                    "6 Months",
+                    "3 Months"
+                  ]
+                }
+              },
+              "required": [
+                "FYTD",
+                "12 Months",
+                "6 Months",
+                "3 Months",
+                "Year Ago",
+                "Similar Accounts"
+              ]
+            }
+          },
+          "required": [
+            "Depletion Points",
+            "Depletions",
+            "Points of Distribution"
+          ]
+        }
+       }
+      }
+    }
+  },
+  "required": [
+    "storeID",
+    "summaryLevel",
+    "summaryTypes",
+    "summaryTimes",
+    "summaryComparisons",
+    "summary"
+  ]
+}

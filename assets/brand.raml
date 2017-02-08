@@ -1,0 +1,45 @@
+#%RAML 1.0
+title: brand
+version: v1
+baseUri: https://localhost:8082/api/1.0
+#baseUri: https://mocksvc.mulesoft.com/mocks/35b3ba86-a112-4d15-8714-8df2db082874/api/1.0
+traits: 
+  pageable: !include traits/pageable.raml
+securitySchemes: 
+  basic:
+    type: Basic Authentication
+types: 
+  brand: !include schemas/Brand.json
+  brands: !include schemas/Brands.json
+  error: !include schemas/Error.json
+/brands:
+  get:
+    is: pageable
+    securedBy: [basic]
+    queryParameters: 
+      ownerCode:
+        type: string
+        required: false
+      familyCode:
+        type: string
+        required: false
+    responses: 
+      200:
+        headers: 
+          X-CBI-NumberOfRecords:
+            required: true
+        body: 
+          application/json:
+            example: !include examples/BrandsExample.json
+  /{brandCode}:
+    get:
+      securedBy: [basic]
+      responses: 
+        200:
+          body: 
+            application/json:
+              example: !include examples/BrandExample.json
+        404:
+          body: 
+            application/json:
+              type: error

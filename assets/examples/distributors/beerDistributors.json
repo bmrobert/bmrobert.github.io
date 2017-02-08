@@ -1,0 +1,48 @@
+[  
+   {  
+      "tdlinx_number":"2063528",
+      "distributor_name":"PITTSFIELD RESTAURANT",
+      "distributor_number":"UNKNOWN",
+      "address":"55 E WASHINGTON ST",
+      "city":"CHICAGO",
+      "state":"IL",
+      "postal_cd":"606022103",
+      "phone_no":"3126411806",
+      "latitude":41.8831,
+      "longitude":-87.6259,
+      "last_update":201512,
+      "high_impact":"N",
+      "unsold_account":"N",
+      "premise_type":"ON PREMISE",
+      "trade_classification":"CASUAL DINING",
+      "planning_group":"REGIONAL",
+      "distributor_rank_beer":{  
+         "total_sales_r365_ty":234.56,
+         "total_sales_r365_ly":63.74,
+         "volume_rank":1
+      }
+   },
+   {  
+      "tdlinx_number":"3982460",
+      "distributor_name":"TONI PATISSERIE & CAFE",
+      "distributor_number":"UNKNOWN",
+      "address":"65 E WASHINGTON ST",
+      "city":"CHICAGO",
+      "state":"IL",
+      "postal_cd":"606022101",
+      "phone_no":"UNK",
+      "latitude":41.8831,
+      "longitude":-87.6255,
+      "last_update":201512,
+      "high_impact":"N",
+      "unsold_account":"N",
+      "premise_type":"ON PREMISE",
+      "trade_classification":"CASUAL DINING",
+      "planning_group":"REGIONAL",
+      "distributor_rank_beer":{  
+         "total_sales_r365_ty":234.56,
+         "total_sales_r365_ly":63.74,
+         "volume_rank":1
+      }
+   }
+]

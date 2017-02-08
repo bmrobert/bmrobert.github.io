@@ -1,0 +1,1029 @@
+{
+  "storeID": "5110665",
+  "summaryLevel": "Brand",
+  "summaryTypes": [
+    "Depletion Points",
+    "Depletions",
+    "Points of Distribution"
+  ],
+  "summaryTimes": [
+    "FYTD",
+    "12 Months",
+    "6 Months",
+    "3 Months"
+  ],
+  "summaryComparisons": [
+    "Year Ago",
+    "Similar Accounts"
+  ],
+  "summary": {
+    "Diseno": {
+      "Depletion Points": {
+        "FYTD": 50,
+        "12 Months": 120,
+        "6 Months": 50,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 90,
+          "12 Months": 160,
+          "6 Months": 90,
+          "3 Months": 40
+        },
+        "Similar Accounts": {
+          "FYTD": 38.6527939,
+          "12 Months": 83.1881256,
+          "6 Months": 38.6527939,
+          "3 Months": 14.3966284
+        }
+      },
+      "Depletions": {
+        "FYTD": 5,
+        "12 Months": 12,
+        "6 Months": 5,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 9,
+          "12 Months": 16,
+          "6 Months": 9,
+          "3 Months": 4
+        },
+        "Similar Accounts": {
+          "FYTD": 3.86527944,
+          "12 Months": 8.31881237,
+          "6 Months": 3.86527944,
+          "3 Months": 1.43966281
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 1,
+        "12 Months": 1,
+        "6 Months": 1,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 1,
+          "12 Months": 1,
+          "6 Months": 1,
+          "3 Months": 1
+        },
+        "Similar Accounts": {
+          "FYTD": 0.489285707,
+          "12 Months": 0.655357122,
+          "6 Months": 0.489285707,
+          "3 Months": 0.353571415
+        }
+      }
+    },
+    "Blackstone": {
+      "Depletion Points": {
+        "FYTD": 33,
+        "12 Months": 33,
+        "6 Months": 33,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 66,
+          "12 Months": 66,
+          "6 Months": 66,
+          "3 Months": 33
+        },
+        "Similar Accounts": {
+          "FYTD": 25.2510109,
+          "12 Months": 61.2243729,
+          "6 Months": 25.2510109,
+          "3 Months": 10.5532789
+        }
+      },
+      "Depletions": {
+        "FYTD": 3,
+        "12 Months": 3,
+        "6 Months": 3,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 6,
+          "12 Months": 6,
+          "6 Months": 6,
+          "3 Months": 3
+        },
+        "Similar Accounts": {
+          "FYTD": 2.29554653,
+          "12 Months": 5.56585217,
+          "6 Months": 2.29554653,
+          "3 Months": 0.959388971
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 1,
+        "12 Months": 1,
+        "6 Months": 1,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 2,
+          "12 Months": 2,
+          "6 Months": 2,
+          "3 Months": 1
+        },
+        "Similar Accounts": {
+          "FYTD": 0.582843721,
+          "12 Months": 0.822561681,
+          "6 Months": 0.582843721,
+          "3 Months": 0.386603981
+        }
+      }
+    },
+    "Ravenswood": {
+      "Depletion Points": {
+        "FYTD": 22,
+        "12 Months": 66,
+        "6 Months": 22,
+        "3 Months": 22,
+        "Year Ago": {
+          "FYTD": 44,
+          "12 Months": 77,
+          "6 Months": 44,
+          "3 Months": 22
+        },
+        "Similar Accounts": {
+          "FYTD": 24.2539368,
+          "12 Months": 55.0694962,
+          "6 Months": 24.2539368,
+          "3 Months": 10.3232183
+        }
+      },
+      "Depletions": {
+        "FYTD": 2,
+        "12 Months": 6,
+        "6 Months": 2,
+        "3 Months": 2,
+        "Year Ago": {
+          "FYTD": 4,
+          "12 Months": 7,
+          "6 Months": 4,
+          "3 Months": 2
+        },
+        "Similar Accounts": {
+          "FYTD": 2.09930944,
+          "12 Months": 4.76051807,
+          "6 Months": 2.09930944,
+          "3 Months": 0.878259659
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 1,
+        "12 Months": 1,
+        "6 Months": 1,
+        "3 Months": 1,
+        "Year Ago": {
+          "FYTD": 1,
+          "12 Months": 1,
+          "6 Months": 1,
+          "3 Months": 1
+        },
+        "Similar Accounts": {
+          "FYTD": 0.520718217,
+          "12 Months": 0.773480654,
+          "6 Months": 0.520718217,
+          "3 Months": 0.361878455
+        }
+      }
+    },
+    "Cribari Dessert": {
+      "Depletion Points": {
+        "FYTD": 23.2220001,
+        "12 Months": 46.4440002,
+        "6 Months": 23.2220001,
+        "3 Months": 17.7775993,
+        "Year Ago": {
+          "FYTD": 22.2220001,
+          "12 Months": 49.888401,
+          "6 Months": 22.2220001,
+          "3 Months": 17.7775993
+        },
+        "Similar Accounts": {
+          "FYTD": 6.05340338,
+          "12 Months": 12.3627911,
+          "6 Months": 6.05340338,
+          "3 Months": 2.9102664
+        }
+      },
+      "Depletions": {
+        "FYTD": 23.2220001,
+        "12 Months": 46.4440002,
+        "6 Months": 23.2220001,
+        "3 Months": 17.7775993,
+        "Year Ago": {
+          "FYTD": 22.2220001,
+          "12 Months": 49.888401,
+          "6 Months": 22.2220001,
+          "3 Months": 17.7775993
+        },
+        "Similar Accounts": {
+          "FYTD": 6.05340338,
+          "12 Months": 12.3627911,
+          "6 Months": 6.05340338,
+          "3 Months": 2.9102664
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 3,
+        "12 Months": 3,
+        "6 Months": 3,
+        "3 Months": 2,
+        "Year Ago": {
+          "FYTD": 2,
+          "12 Months": 3,
+          "6 Months": 2,
+          "3 Months": 2
+        },
+        "Similar Accounts": {
+          "FYTD": 0.748671234,
+          "12 Months": 1.00683367,
+          "6 Months": 0.748671234,
+          "3 Months": 0.531511009
+        }
+      }
+    },
+    "Black Velvet": {
+      "Depletion Points": {
+        "FYTD": 1.38709998,
+        "12 Months": 4.24109983,
+        "6 Months": 1.38709998,
+        "3 Months": 0.640200019,
+        "Year Ago": {
+          "FYTD": 0,
+          "12 Months": 16.0506992,
+          "6 Months": 0,
+          "3 Months": 0
+        },
+        "Similar Accounts": {
+          "FYTD": 2.93477631,
+          "12 Months": 5.67218208,
+          "6 Months": 2.93477631,
+          "3 Months": 1.46665585
+        }
+      },
+      "Depletions": {
+        "FYTD": 0.213400006,
+        "12 Months": 0.653500021,
+        "6 Months": 0.213400006,
+        "3 Months": 0.106700003,
+        "Year Ago": {
+          "FYTD": 0,
+          "12 Months": 2.5401001,
+          "6 Months": 0,
+          "3 Months": 0
+        },
+        "Similar Accounts": {
+          "FYTD": 0.477566987,
+          "12 Months": 0.921921551,
+          "6 Months": 0.477566987,
+          "3 Months": 0.238029018
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 0,
+        "12 Months": 0,
+        "6 Months": 0,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 0,
+          "12 Months": 1,
+          "6 Months": 0,
+          "3 Months": 0
+        },
+        "Similar Accounts": {
+          "FYTD": 0.223934263,
+          "12 Months": 0.334874153,
+          "6 Months": 0.223934263,
+          "3 Months": 0.136106834
+        }
+      }
+    },
+    "Hogue Cellars": {
+      "Depletion Points": {
+        "FYTD": 130,
+        "12 Months": 286,
+        "6 Months": 130,
+        "3 Months": 65,
+        "Year Ago": {
+          "FYTD": 195,
+          "12 Months": 325,
+          "6 Months": 195,
+          "3 Months": 130
+        },
+        "Similar Accounts": {
+          "FYTD": 26.1547699,
+          "12 Months": 57.9313469,
+          "6 Months": 26.1547699,
+          "3 Months": 12.4385853
+        }
+      },
+      "Depletions": {
+        "FYTD": 10,
+        "12 Months": 22,
+        "6 Months": 10,
+        "3 Months": 5,
+        "Year Ago": {
+          "FYTD": 15,
+          "12 Months": 25,
+          "6 Months": 15,
+          "3 Months": 10
+        },
+        "Similar Accounts": {
+          "FYTD": 1.99292767,
+          "12 Months": 4.3999505,
+          "6 Months": 1.99292767,
+          "3 Months": 0.949868441
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 1,
+        "12 Months": 1,
+        "6 Months": 1,
+        "3 Months": 1,
+        "Year Ago": {
+          "FYTD": 1,
+          "12 Months": 1,
+          "6 Months": 1,
+          "3 Months": 1
+        },
+        "Similar Accounts": {
+          "FYTD": 0.480263144,
+          "12 Months": 0.6875,
+          "6 Months": 0.480263144,
+          "3 Months": 0.361842096
+        }
+      }
+    },
+    "Toasted Head": {
+      "Depletion Points": {
+        "FYTD": 255,
+        "12 Months": 493,
+        "6 Months": 255,
+        "3 Months": 85,
+        "Year Ago": {
+          "FYTD": 204,
+          "12 Months": 442,
+          "6 Months": 204,
+          "3 Months": 85
+        },
+        "Similar Accounts": {
+          "FYTD": 61.9161301,
+          "12 Months": 124.84874,
+          "6 Months": 61.9161301,
+          "3 Months": 32.9534416
+        }
+      },
+      "Depletions": {
+        "FYTD": 15,
+        "12 Months": 29,
+        "6 Months": 15,
+        "3 Months": 5,
+        "Year Ago": {
+          "FYTD": 12,
+          "12 Months": 26,
+          "6 Months": 12,
+          "3 Months": 5
+        },
+        "Similar Accounts": {
+          "FYTD": 3.64212537,
+          "12 Months": 7.34404325,
+          "6 Months": 3.64212537,
+          "3 Months": 1.9384377
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 1,
+        "12 Months": 1,
+        "6 Months": 1,
+        "3 Months": 1,
+        "Year Ago": {
+          "FYTD": 1,
+          "12 Months": 1,
+          "6 Months": 1,
+          "3 Months": 1
+        },
+        "Similar Accounts": {
+          "FYTD": 0.630136967,
+          "12 Months": 0.794520557,
+          "6 Months": 0.630136967,
+          "3 Months": 0.510273993
+        }
+      }
+    },
+    "Vendange": {
+      "Depletion Points": {
+        "FYTD": 0,
+        "12 Months": 45,
+        "6 Months": 0,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 15,
+          "12 Months": 45,
+          "6 Months": 15,
+          "3 Months": 15
+        },
+        "Similar Accounts": {
+          "FYTD": 21.9112206,
+          "12 Months": 45.0315704,
+          "6 Months": 21.9112206,
+          "3 Months": 10.4032536
+        }
+      },
+      "Depletions": {
+        "FYTD": 0,
+        "12 Months": 15,
+        "6 Months": 0,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 5,
+          "12 Months": 15,
+          "6 Months": 5,
+          "3 Months": 5
+        },
+        "Similar Accounts": {
+          "FYTD": 7.30153418,
+          "12 Months": 15.0017014,
+          "6 Months": 7.30153418,
+          "3 Months": 3.46554542
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 0,
+        "12 Months": 1,
+        "6 Months": 0,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 1,
+          "12 Months": 1,
+          "6 Months": 1,
+          "3 Months": 1
+        },
+        "Similar Accounts": {
+          "FYTD": 0.982630253,
+          "12 Months": 1.4292804,
+          "6 Months": 0.982630253,
+          "3 Months": 0.729528546
+        }
+      }
+    },
+    "Mark West": {
+      "Depletion Points": {
+        "FYTD": 100,
+        "12 Months": 220,
+        "6 Months": 100,
+        "3 Months": 30,
+        "Year Ago": {
+          "FYTD": 60,
+          "12 Months": 130,
+          "6 Months": 60,
+          "3 Months": 30
+        },
+        "Similar Accounts": {
+          "FYTD": 33.6037102,
+          "12 Months": 78.8970032,
+          "6 Months": 33.6037102,
+          "3 Months": 14.7969723
+        }
+      },
+      "Depletions": {
+        "FYTD": 10,
+        "12 Months": 22,
+        "6 Months": 10,
+        "3 Months": 3,
+        "Year Ago": {
+          "FYTD": 6,
+          "12 Months": 13,
+          "6 Months": 6,
+          "3 Months": 3
+        },
+        "Similar Accounts": {
+          "FYTD": 3.33543158,
+          "12 Months": 7.82570314,
+          "6 Months": 3.33543158,
+          "3 Months": 1.46977949
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 1,
+        "12 Months": 1,
+        "6 Months": 1,
+        "3 Months": 1,
+        "Year Ago": {
+          "FYTD": 1,
+          "12 Months": 2,
+          "6 Months": 1,
+          "3 Months": 1
+        },
+        "Similar Accounts": {
+          "FYTD": 0.598548949,
+          "12 Months": 0.773881495,
+          "6 Months": 0.598548949,
+          "3 Months": 0.446191043
+        }
+      }
+    },
+    "Clos Du Bois": {
+      "Depletion Points": {
+        "FYTD": 208,
+        "12 Months": 464,
+        "6 Months": 208,
+        "3 Months": 80,
+        "Year Ago": {
+          "FYTD": 208,
+          "12 Months": 480,
+          "6 Months": 208,
+          "3 Months": 96
+        },
+        "Similar Accounts": {
+          "FYTD": 36.3205299,
+          "12 Months": 78.3089828,
+          "6 Months": 36.3205299,
+          "3 Months": 17.0701122
+        }
+      },
+      "Depletions": {
+        "FYTD": 13,
+        "12 Months": 29,
+        "6 Months": 13,
+        "3 Months": 5,
+        "Year Ago": {
+          "FYTD": 13,
+          "12 Months": 30,
+          "6 Months": 13,
+          "3 Months": 6
+        },
+        "Similar Accounts": {
+          "FYTD": 2.20121121,
+          "12 Months": 4.71503735,
+          "6 Months": 2.20121121,
+          "3 Months": 1.03203571
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 2,
+        "12 Months": 2,
+        "6 Months": 2,
+        "3 Months": 2,
+        "Year Ago": {
+          "FYTD": 2,
+          "12 Months": 2,
+          "6 Months": 2,
+          "3 Months": 1
+        },
+        "Similar Accounts": {
+          "FYTD": 0.579494774,
+          "12 Months": 0.836552739,
+          "6 Months": 0.579494774,
+          "3 Months": 0.387815744
+        }
+      }
+    },
+    "Casa Noble": {
+      "Depletion Points": {
+        "FYTD": 8.5,
+        "12 Months": 8.5,
+        "6 Months": 8.5,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 0,
+          "12 Months": 0,
+          "6 Months": 0,
+          "3 Months": 0
+        },
+        "Similar Accounts": {
+          "FYTD": 32.854599,
+          "12 Months": 57.362545,
+          "6 Months": 32.854599,
+          "3 Months": 14.596674
+        }
+      },
+      "Depletions": {
+        "FYTD": 0.25,
+        "12 Months": 0.25,
+        "6 Months": 0.25,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 0,
+          "12 Months": 0,
+          "6 Months": 0,
+          "3 Months": 0
+        },
+        "Similar Accounts": {
+          "FYTD": 0.782618046,
+          "12 Months": 1.31273103,
+          "6 Months": 0.782618046,
+          "3 Months": 0.338501036
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 1,
+        "12 Months": 1,
+        "6 Months": 1,
+        "3 Months": 0,
+        "Year Ago": {
+          "FYTD": 0,
+          "12 Months": 0,
+          "6 Months": 0,
+          "3 Months": 0
+        },
+        "Similar Accounts": {
+          "FYTD": 0.628336728,
+          "12 Months": 0.841889143,
+          "6 Months": 0.628336728,
+          "3 Months": 0.322381943
+        }
+      }
+    },
+    "The Dreaming Tree": {
+      "Depletion Points": {
+        "FYTD": 98,
+        "12 Months": 238,
+        "6 Months": 98,
+        "3 Months": 70,
+        "Year Ago": {
+          "FYTD": 112,
+          "12 Months": 280,
+          "6 Months": 112,
+          "3 Months": 70
+        },
+        "Similar Accounts": {
+          "FYTD": 27.7714138,
+          "12 Months": 51.3303947,
+          "6 Months": 27.7714138,
+          "3 Months": 13.1202269
+        }
+      },
+      "Depletions": {
+        "FYTD": 7,
+        "12 Months": 17,
+        "6 Months": 7,
+        "3 Months": 5,
+        "Year Ago": {
+          "FYTD": 8,
+          "12 Months": 20,
+          "6 Months": 8,
+          "3 Months": 5
+        },
+        "Similar Accounts": {
+          "FYTD": 1.98367238,
+          "12 Months": 3.66645694,
+          "6 Months": 1.98367238,
+          "3 Months": 0.937159061
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 1,
+        "12 Months": 1,
+        "6 Months": 1,
+        "3 Months": 1,
+        "Year Ago": {
+          "FYTD": 1,
+          "12 Months": 2,
+          "6 Months": 1,
+          "3 Months": 1
+        },
+        "Similar Accounts": {
+          "FYTD": 0.571428597,
+          "12 Months": 0.772397101,
+          "6 Months": 0.571428597,
+          "3 Months": 0.305084735
+        }
+      }
+    },
+    "Robert Mondavi Private Selection": {
+      "Depletion Points": {
+        "FYTD": 112,
+        "12 Months": 210,
+        "6 Months": 112,
+        "3 Months": 70,
+        "Year Ago": {
+          "FYTD": 42,
+          "12 Months": 112,
+          "6 Months": 42,
+          "3 Months": 0
+        },
+        "Similar Accounts": {
+          "FYTD": 51.8264847,
+          "12 Months": 124.264603,
+          "6 Months": 51.8264847,
+          "3 Months": 21.9839611
+        }
+      },
+      "Depletions": {
+        "FYTD": 8,
+        "12 Months": 15,
+        "6 Months": 8,
+        "3 Months": 5,
+        "Year Ago": {
+          "FYTD": 3,
+          "12 Months": 8,
+          "6 Months": 3,
+          "3 Months": 0
+        },
+        "Similar Accounts": {
+          "FYTD": 3.7018919,
+          "12 Months": 8.87604332,
+          "6 Months": 3.7018919,
+          "3 Months": 1.57028294
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 1,
+        "12 Months": 1,
+        "6 Months": 1,
+        "3 Months": 1,
+        "Year Ago": {
+          "FYTD": 1,
+          "12 Months": 1,
+          "6 Months": 1,
+          "3 Months": 0
+        },
+        "Similar Accounts": {
+          "FYTD": 0.741554081,
+          "12 Months": 1.0954392,
+          "6 Months": 0.741554081,
+          "3 Months": 0.510979712
+        }
+      }
+    },
+    "Monkey Bay": {
+      "Depletion Points": {
+        "FYTD": 70,
+        "12 Months": 133,
+        "6 Months": 70,
+        "3 Months": 21,
+        "Year Ago": {
+          "FYTD": 77,
+          "12 Months": 140,
+          "6 Months": 77,
+          "3 Months": 56
+        },
+        "Similar Accounts": {
+          "FYTD": 31.8720627,
+          "12 Months": 61.0645142,
+          "6 Months": 31.8720627,
+          "3 Months": 16.1381321
+        }
+      },
+      "Depletions": {
+        "FYTD": 10,
+        "12 Months": 19,
+        "6 Months": 10,
+        "3 Months": 3,
+        "Year Ago": {
+          "FYTD": 11,
+          "12 Months": 20,
+          "6 Months": 11,
+          "3 Months": 8
+        },
+        "Similar Accounts": {
+          "FYTD": 4.55315161,
+          "12 Months": 8.72350216,
+          "6 Months": 4.55315161,
+          "3 Months": 2.30544758
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 2,
+        "12 Months": 2,
+        "6 Months": 2,
+        "3 Months": 1,
+        "Year Ago": {
+          "FYTD": 2,
+          "12 Months": 2,
+          "6 Months": 2,
+          "3 Months": 2
+        },
+        "Similar Accounts": {
+          "FYTD": 0.696498036,
+          "12 Months": 0.875486374,
+          "6 Months": 0.696498036,
+          "3 Months": 0.544747055
+        }
+      }
+    },
+    "Paul Masson Tables": {
+      "Depletion Points": {
+        "FYTD": 28,
+        "12 Months": 56,
+        "6 Months": 28,
+        "3 Months": 16,
+        "Year Ago": {
+          "FYTD": 24,
+          "12 Months": 52,
+          "6 Months": 24,
+          "3 Months": 12
+        },
+        "Similar Accounts": {
+          "FYTD": 14.2016401,
+          "12 Months": 29.5507069,
+          "6 Months": 14.2016401,
+          "3 Months": 6.39847851
+        }
+      },
+      "Depletions": {
+        "FYTD": 28,
+        "12 Months": 56,
+        "6 Months": 28,
+        "3 Months": 16,
+        "Year Ago": {
+          "FYTD": 24,
+          "12 Months": 52,
+          "6 Months": 24,
+          "3 Months": 12
+        },
+        "Similar Accounts": {
+          "FYTD": 14.2016401,
+          "12 Months": 29.5507069,
+          "6 Months": 14.2016401,
+          "3 Months": 6.39847851
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 1,
+        "12 Months": 1,
+        "6 Months": 1,
+        "3 Months": 1,
+        "Year Ago": {
+          "FYTD": 1,
+          "12 Months": 1,
+          "6 Months": 1,
+          "3 Months": 1
+        },
+        "Similar Accounts": {
+          "FYTD": 0.901785731,
+          "12 Months": 1.18154764,
+          "6 Months": 0.901785731,
+          "3 Months": 0.691964269
+        }
+      }
+    },
+    "Nathanson Creek": {
+      "Depletion Points": {
+        "FYTD": 40,
+        "12 Months": 114,
+        "6 Months": 40,
+        "3 Months": 25,
+        "Year Ago": {
+          "FYTD": 64,
+          "12 Months": 122,
+          "6 Months": 64,
+          "3 Months": 25
+        },
+        "Similar Accounts": {
+          "FYTD": 11.857708,
+          "12 Months": 24.2152576,
+          "6 Months": 11.857708,
+          "3 Months": 5.63703537
+        }
+      },
+      "Depletions": {
+        "FYTD": 40,
+        "12 Months": 114,
+        "6 Months": 40,
+        "3 Months": 25,
+        "Year Ago": {
+          "FYTD": 64,
+          "12 Months": 122,
+          "6 Months": 64,
+          "3 Months": 25
+        },
+        "Similar Accounts": {
+          "FYTD": 11.857708,
+          "12 Months": 24.2152576,
+          "6 Months": 11.857708,
+          "3 Months": 5.63703537
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 4,
+        "12 Months": 4,
+        "6 Months": 4,
+        "3 Months": 4,
+        "Year Ago": {
+          "FYTD": 4,
+          "12 Months": 4,
+          "6 Months": 4,
+          "3 Months": 4
+        },
+        "Similar Accounts": {
+          "FYTD": 1.2885375,
+          "12 Months": 1.60869563,
+          "6 Months": 1.2885375,
+          "3 Months": 1
+        }
+      }
+    },
+    "Svedka": {
+      "Depletion Points": {
+        "FYTD": 11.8931999,
+        "12 Months": 18.5597992,
+        "6 Months": 11.8931999,
+        "3 Months": 2.97329998,
+        "Year Ago": {
+          "FYTD": 8.99969959,
+          "12 Months": 8.99969959,
+          "6 Months": 8.99969959,
+          "3 Months": 2.97329998
+        },
+        "Similar Accounts": {
+          "FYTD": 15.0380898,
+          "12 Months": 31.525053,
+          "6 Months": 15.0380898,
+          "3 Months": 9.34107113
+        }
+      },
+      "Depletions": {
+        "FYTD": 1.75999999,
+        "12 Months": 2.75999999,
+        "6 Months": 1.75999999,
+        "3 Months": 0.439999998,
+        "Year Ago": {
+          "FYTD": 1.33329999,
+          "12 Months": 1.33329999,
+          "6 Months": 1.33329999,
+          "3 Months": 0.439999998
+        },
+        "Similar Accounts": {
+          "FYTD": 2.39638424,
+          "12 Months": 5.04803467,
+          "6 Months": 2.39638424,
+          "3 Months": 1.50317407
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 2,
+        "12 Months": 3,
+        "6 Months": 2,
+        "3 Months": 1,
+        "Year Ago": {
+          "FYTD": 3,
+          "12 Months": 3,
+          "6 Months": 3,
+          "3 Months": 1
+        },
+        "Similar Accounts": {
+          "FYTD": 0.588235319,
+          "12 Months": 0.857064307,
+          "6 Months": 0.588235319,
+          "3 Months": 0.402418911
+        }
+      }
+    },
+    "Taylor Dessert": {
+      "Depletion Points": {
+        "FYTD": 19.9995003,
+        "12 Months": 33.3325005,
+        "6 Months": 19.9995003,
+        "3 Months": 13.3330002,
+        "Year Ago": {
+          "FYTD": 13.3330002,
+          "12 Months": 33.3325005,
+          "6 Months": 13.3330002,
+          "3 Months": 6.66650009
+        },
+        "Similar Accounts": {
+          "FYTD": 14.0703535,
+          "12 Months": 28.9099464,
+          "6 Months": 14.0703535,
+          "3 Months": 6.82437277
+        }
+      },
+      "Depletions": {
+        "FYTD": 3.9999001,
+        "12 Months": 6.66650009,
+        "6 Months": 3.9999001,
+        "3 Months": 2.66659999,
+        "Year Ago": {
+          "FYTD": 2.66659999,
+          "12 Months": 6.66650009,
+          "6 Months": 2.66659999,
+          "3 Months": 1.33329999
+        },
+        "Similar Accounts": {
+          "FYTD": 2.8140707,
+          "12 Months": 5.78198957,
+          "6 Months": 2.8140707,
+          "3 Months": 1.3648746
+        }
+      },
+      "Points of Distribution": {
+        "FYTD": 1,
+        "12 Months": 1,
+        "6 Months": 1,
+        "3 Months": 1,
+        "Year Ago": {
+          "FYTD": 1,
+          "12 Months": 1,
+          "6 Months": 1,
+          "3 Months": 1
+        },
+        "Similar Accounts": {
+          "FYTD": 0.604796648,
+          "12 Months": 0.866527617,
+          "6 Months": 0.604796648,
+          "3 Months": 0.407716364
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "tdlinx_number": {
+                "type": "string"
+            },
+            "store_name": {
+                "type": "string"
+            },
+            "store_number": {
+                "type": "string"
+            },
+            "address": {
+                "type": "string"
+            },
+            "city": {
+                "type": "string"
+            },
+            "state": {
+                "type": "string"
+            },
+            "postal_cd": {
+                "type": "string"
+            },
+            "phone_no": {
+                "type": "string"
+            },
+            "latitude": {
+                "type": "number"
+            },
+            "longitude": {
+                "type": "number"
+            },
+            "last_update": {
+                "type": "number"
+            },
+            "high_impact": {
+                "enum": ["Y", "N", "N/A"]
+            },
+            "unsold_account": {
+                "enum": ["Y", "N"]
+            },
+            "premise_type": {
+                "enum": ["ON PREMISE", "OFF PREMISE"]
+            },
+            "trade_classification": {
+                "type": "string"
+            },
+            "planning_group": {
+                "type": "string"
+            },
+            "store_rank_wine": {
+                "type": "object",
+                "properties": {
+                    "rank": {
+                        "type": "number"
+                    },
+                    "delta": {
+                        "type": "number"
+                    },
+                    "depl_fytd": {
+                        "type": "number"
+                    },
+                    "depl_pts_fytd": {
+                        "type": "number"
+                    },
+                    "depl_l12_mth_ty": {
+                        "type": "number"
+                    },
+                    "depl_pts_fytd_1ya": {
+                        "type": "number"
+                    }
+                },
+                "required": ["rank", "delta", "depl_fytd", "depl_pts_fytd", "depl_l12_mth_ty", "depl_pts_fytd_1ya"]
+            }
+        },
+        "required": [
+            "tdlinx_number",
+            "store_name",
+            "store_number",
+            "address",
+            "city",
+            "state",
+            "postal_cd",
+            "phone_no",
+            "latitude",
+            "longitude",
+            "last_update",
+            "high_impact",
+            "unsold_account",
+            "premise_type",
+            "trade_classification",
+            "planning_group"
+        ]
+    },
+    "required": true
+}

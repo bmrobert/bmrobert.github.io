@@ -1,0 +1,144 @@
+{
+  "metadata": {
+    "performanceLevelPerspective": "brand",
+    "performanceLevelMetric": "Depletion Points",
+    "performanceLevelPeriod": "FYTD",
+    "performanceLevelComparison": "Year Ago"
+  },
+  "brandPerformanceLevel": {
+    "brandId": "512",
+    "brandName": "ROBERT MONDAVI WINERY",
+    "storePerformanceLevels": [
+      {
+        "store_src_cd": "2038531",
+        "store_name": "BEVMO",
+        "store_number": "71",
+        "performanceLevel": 3,
+        "previousPerfLevel": 188.5,
+        "previousMetricValue": 188.5,
+        "currentMetricValue": 187.5,
+        "comparisonDelta": -1
+      },
+      {
+        "store_src_cd": "1514800",
+        "store_name": "BEVMO",
+        "store_number": "28",
+        "performanceLevel": 1,
+        "previousPerfLevel": 181,
+        "previousMetricValue": 181,
+        "currentMetricValue": 202.5,
+        "comparisonDelta": 21.5
+      },
+      {
+        "store_src_cd": "0574680",
+        "store_name": "LUCKY STORE",
+        "store_number": "756",
+        "performanceLevel": 3,
+        "previousPerfLevel": 95,
+        "previousMetricValue": 95,
+        "currentMetricValue": 67.5,
+        "comparisonDelta": -27.5
+      },
+      {
+        "store_src_cd": "0122228",
+        "store_name": "SAFEWAY STORE",
+        "store_number": "1490",
+        "performanceLevel": 3,
+        "previousPerfLevel": 258.75,
+        "previousMetricValue": 258.75,
+        "currentMetricValue": 230,
+        "comparisonDelta": -28.75
+      },
+      {
+        "store_src_cd": "1857020",
+        "store_name": "SAFEWAY STORE",
+        "store_number": "2606",
+        "performanceLevel": 3,
+        "previousPerfLevel": 435,
+        "previousMetricValue": 435,
+        "currentMetricValue": 335,
+        "comparisonDelta": -100
+      },
+      {
+        "store_src_cd": "0122480",
+        "store_name": "SAFEWAY STORE",
+        "store_number": "4601",
+        "performanceLevel": 3,
+        "previousPerfLevel": 240,
+        "previousMetricValue": 240,
+        "currentMetricValue": 231.25,
+        "comparisonDelta": -8.75
+      },
+      {
+        "store_src_cd": "0122492",
+        "store_name": "SAFEWAY STORE",
+        "store_number": "1507",
+        "performanceLevel": 3,
+        "previousPerfLevel": 550,
+        "previousMetricValue": 550,
+        "currentMetricValue": 538.75,
+        "comparisonDelta": -11.25
+      },
+      {
+        "store_src_cd": "0241878",
+        "store_name": "SAFEWAY STORE",
+        "store_number": "995",
+        "performanceLevel": 3,
+        "previousPerfLevel": 308.75,
+        "previousMetricValue": 308.75,
+        "currentMetricValue": 296.25,
+        "comparisonDelta": -12.5
+      },
+      {
+        "store_src_cd": "0122535",
+        "store_name": "SAFEWAY STORE",
+        "store_number": "2646",
+        "performanceLevel": 3,
+        "previousPerfLevel": 361.25,
+        "previousMetricValue": 361.25,
+        "currentMetricValue": 341.25,
+        "comparisonDelta": -20
+      },
+      {
+        "store_src_cd": "0122622",
+        "store_name": "SAFEWAY STORE",
+        "store_number": "1711",
+        "performanceLevel": 3,
+        "previousPerfLevel": 591.25,
+        "previousMetricValue": 591.25,
+        "currentMetricValue": 581.25,
+        "comparisonDelta": -10
+      },
+      {
+        "store_src_cd": "0362840",
+        "store_name": "SAFEWAY STORE",
+        "store_number": "1206",
+        "performanceLevel": 3,
+        "previousPerfLevel": 360,
+        "previousMetricValue": 360,
+        "currentMetricValue": 227.5,
+        "comparisonDelta": -132.5
+      },
+      {
+        "store_src_cd": "7037771",
+        "store_name": "CITYTARGET",
+        "store_number": "2766",
+        "performanceLevel": 3,
+        "previousPerfLevel": 28.75,
+        "previousMetricValue": 28.75,
+        "currentMetricValue": 0,
+        "comparisonDelta": -28.75
+      },
+      {
+        "store_src_cd": "0325949",
+        "store_name": "WALGREENS",
+        "store_number": "890",
+        "performanceLevel": 3,
+        "previousPerfLevel": 35.6666679,
+        "previousMetricValue": 35.6666679,
+        "currentMetricValue": 5.33333349,
+        "comparisonDelta": -30.333334
+      }
+    ]
+  }
+}

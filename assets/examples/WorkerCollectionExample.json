@@ -1,0 +1,17 @@
+{
+	"workers": [{
+		"id": "A12345",
+		"type": "Employee",
+		"firstName": "Jane",
+		"middleName": "Margaret",
+		"lastName": "Doe",
+		"jobTitle": "Atom Smasher"
+	},
+    {
+		"id": "ZZ72R2",
+		"type": "Distributor",
+		"firstName": "James",
+		"lastName": "Bond",
+		"jobTitle": "Spy"
+	}]
+}

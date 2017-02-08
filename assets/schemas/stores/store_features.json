@@ -1,0 +1,64 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "storeCode": {
+                "type": "string"
+            },
+            "featureCode": {
+                "type": "string"
+            },
+            "packageID": {
+                "type": "string"
+            },
+            "packageName": {
+                "type": "string"
+            },
+            "typeCode": {
+                "enum": ["LP", "LT", "HH", "BM"]
+            },
+            "typeDescription": {
+                "type": "string"
+            },
+            "featurePeriodStartDate": {
+                "type": ["string", "null"]
+            },
+            "featurePeriodEndDate": {
+                "type": ["string", "null"]
+            },
+            "resetPeriodStartDate": {
+                "type": ["string", "null"]
+            },
+            "resetPeriodEndDate": {
+                "type": ["string", "null"]
+            },
+            "price": {
+                "type": "number"
+            },
+            "onMenuFlag": {
+                "enum": ["Y", "N"]
+            },
+            "additionalNotes": {
+                "type": ["string", "null"]
+            }
+        },
+        "required": [
+            "storeCode",
+            "featureCode",
+            "packageID",
+            "packageName",
+            "typeCode",
+            "typeDescription",
+            "featurePeriodStartDate",
+            "featurePeriodEndDate",
+            "resetPeriodStartDate",
+            "resetPeriodEndDate",
+            "price",
+            "onMenuFlag",
+            "additionalNotes"
+        ]
+    },
+    "required": true
+}

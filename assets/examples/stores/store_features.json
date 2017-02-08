@@ -1,0 +1,32 @@
+[
+  {
+    "storeCode":"105527727",
+    "featureCode":"229-556-1001055277274246742496",
+    "packageID":"229-556-100",
+    "packageName":"CORONA LIGHT-12 OUNCE (BEER)-BOTTLE",
+    "typeCode":"LT",
+    "typeDescription":"Limited Time Only (LTO)",
+    "featurePeriodStartDate":"2016-04-07",
+    "featurePeriodEndDate":"2016-05-06",
+    "resetPeriodStartDate":"2016-04-01",
+    "resetPeriodEndDate":"2016-04-06",
+    "price":4.0000,
+    "onMenuFlag":null,
+    "additionalNotes":"Featuring $3.50 Corona Extra & Corona Light bottles, All Day Every Thursday beginning April 7th leading up to Cinco de Mayo.  POS Posters and Cinco Thematic POS Kits. An Insert in every beverage book for an ‘enter to win’ ballot box.  A Corona Extra Stainless Cooler raffled for Cinco."
+  },
+  {
+    "storeCode":"105527727",
+    "featureCode":"228-556-1001055277274246742496",
+    "packageID":"228-556-100",
+    "packageName":"CORONA EXTRA-12 OUNCE (BEER)-BOTTLE",
+    "typeCode":"LT",
+    "typeDescription":"Limited Time Only (LTO)",
+    "featurePeriodStartDate":"2016-04-07",
+    "featurePeriodEndDate":"2016-05-06",
+    "resetPeriodStartDate":"2016-04-01",
+    "resetPeriodEndDate":"2016-04-06",
+    "price":4.0000,
+    "onMenuFlag":null,
+    "additionalNotes":"Featuring $3.50 Corona Extra & Corona Light bottles, All Day Every Thursday beginning April 7th leading up to Cinco de Mayo.  POS Posters and Cinco Thematic POS Kits. An Insert in every beverage book for an ‘enter to win’ ballot box.  A Corona Extra Stainless Cooler raffled for Cinco."
+  }
+]

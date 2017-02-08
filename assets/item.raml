@@ -1,0 +1,54 @@
+#%RAML 1.0
+title: item
+version: v1
+baseUri: https://localhost:8082/api/1.0
+#baseUri: https://mocksvc.mulesoft.com/mocks/60329a89-e440-4f72-90cb-b6b0564f949e/api/1.0
+traits: 
+  pageable: !include traits/pageable.raml
+securitySchemes: 
+  basic:
+    type: Basic Authentication
+types: 
+  items: !include schemas/Items.json
+  item: !include schemas/Item.json
+  error: !include schemas/Error.json
+  
+/items:
+  get:
+    is: pageable
+    securedBy: [basic]
+    queryParameters: 
+      universalSKUCode:
+        type: string
+        required: false
+      upc:
+        type: string
+        required: false
+      gtin:
+        type: string
+        required: false
+      brandCode:
+        type: string
+        required: false
+    responses: 
+      200:
+        headers: 
+          X-CBI-NumberOfRecords:
+            required: true
+        body: 
+          application/json:
+            example: !include examples/ItemExample.json
+      
+  
+  /{id}:
+    get:
+      securedBy: [basic]
+      responses: 
+        200:
+          body: 
+            application/json:
+              example: !include examples/ItemsExample.json
+        404:
+          body: 
+            application/json:
+              type: error

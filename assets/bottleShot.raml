@@ -1,0 +1,46 @@
+#%RAML 1.0
+title: bottleShot
+version: 1.0
+baseUri: https://localhost:8082/api/1.0
+securitySchemes: 
+  basic:
+    type: Basic Authentication
+types: 
+  bottleShots: !include schemas/BottleShots.json
+  error: !include schemas/Error.json
+
+/bottleShots:
+  get:
+    securedBy: [basic]
+    queryParameters:
+      dateModified:
+        type: datetime
+        required: true
+        example: 2016-11-01T01:01:00Z
+    responses: 
+       200:
+          body: 
+           application/json:
+            type: bottleShots
+            example: !include examples/BottleShotExample.json
+       404:
+          body: 
+            application/json:
+              type: error
+  /{gtin}:
+    get:
+      securedBy: [basic]
+      queryParameters: 
+        vintage: 
+          type: string
+          required: false
+      responses: 
+        200:
+          body: 
+           application/json:
+            type: bottleShots
+            example: !include examples/BottleShotExample.json
+        404:
+          body: 
+            application/json:
+              type: error

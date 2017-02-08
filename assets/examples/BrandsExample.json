@@ -1,0 +1,30 @@
+[
+  {
+    "code": "101",
+    "description": "DAYS",
+    "familyCode": "101",
+    "familyDescription": "DAYS",
+    "ownerCode": "100",
+    "ownerDescription": "CONSTELLATION BRANDS US OPERATIONS, INC",
+    "subBrands": [
+      {
+        "subBrandCode": "1001",
+        "subBrandDescription": "77 DAYS"
+      }
+    ]
+  },
+  {
+    "code": "101",
+    "description": "DAYS",
+    "familyCode": "101",
+    "familyDescription": "DAYS",
+    "ownerCode": "100",
+    "ownerDescription": "CONSTELLATION BRANDS US OPERATIONS, INC",
+    "subBrands": [
+      {
+        "subBrandCode": "2340",
+        "subBrandDescription": "240 DAYS"
+      }
+    ]
+  }
+ ]

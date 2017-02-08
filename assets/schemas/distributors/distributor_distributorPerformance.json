@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "ID": {
+      "type": "string"
+    },
+    "distributorName": {
+      "type": "string"
+    },
+    "distributorCode": {
+      "type": "string"
+    },
+    "distributorPerformance": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "beerProducts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "performance": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "type": {
+                        "type": "string"
+                      },
+                      "measures": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "timeframe": {
+                              "type": "string"
+                            },
+                            "current": {
+                              "type": "number"
+                            },
+                            "yearAgo": {
+                              "type": "number"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "required": [
+                      "type",
+                      "measures"
+                    ]
+                  }
+                }
+              },
+              "required": [
+                "performance"
+              ]
+            }
+          }
+        },
+        "required": [
+          "beerProducts"
+        ]
+      }
+    }
+  },
+  "required": [
+    "ID",
+    "distributorName",
+    "distributorCode",
+    "distributorPerformance"
+  ]
+}

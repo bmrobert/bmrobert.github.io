@@ -1,0 +1,94 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "tdlinx_number": {
+                "type": "string"
+            },
+            "store_name": {
+                "type": "string"
+            },
+            "store_number": {
+                "type": "string"
+            },
+            "address": {
+                "type": "string"
+            },
+            "city": {
+                "type": "string"
+            },
+            "state": {
+                "type": "string"
+            },
+            "postal_cd": {
+                "type": "string"
+            },
+            "phone_no": {
+                "type": "string"
+            },
+            "latitude": {
+                "type": "number"
+            },
+            "longitude": {
+                "type": "number"
+            },
+            "last_update": {
+                "type": "number"
+            },
+            "high_impact": {
+                "enum": ["Y", "N", "N/A"]
+            },
+            "premise_type": {
+                "enum": ["ON PREMISE", "OFF PREMISE"]
+            },
+            "trade_classification": {
+                "type": "string"
+            },
+            "planning_group": {
+                "type": "string"
+            },
+            "store_rank_beer": {
+                "type": "object",
+                "properties": {
+                    "volume_rank": {
+                        "type": "number"
+                    },
+                    "total_sales_r365": {
+                        "type": "number"
+                    },
+                    "total_sales_r365_ya": {
+                        "type": "number"
+                    },
+                    "eff_distribution_l90_ly": {
+                        "type": "number"
+                    },
+                    "eff_distribution_l90_ty": {
+                        "type": "number"
+                    }
+                },
+                "required": ["volume_rank", "total_sales_r365", "total_sales_r365_ya", "eff_distribution_l90_ly", "eff_distribution_l90_ty"]
+            }
+        },
+        "required": [
+            "tdlinx_number",
+            "store_name",
+            "store_number",
+            "address",
+            "city",
+            "state",
+            "postal_cd",
+            "phone_no",
+            "latitude",
+            "longitude",
+            "last_update",
+            "high_impact",
+            "premise_type",
+            "trade_classification",
+            "planning_group",
+            "store_rank_beer"
+        ]
+    },
+    "required": true
+}

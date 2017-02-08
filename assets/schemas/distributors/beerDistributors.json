@@ -1,0 +1,95 @@
+{
+   "$schema": "http://json-schema.org/draft-04/schema#",
+   "type": "array",
+   "items": {
+      "type": "object",
+      "properties": {
+         "tdlinx_number": {
+            "type": "string"
+         },
+         "distributor_name": {
+            "type": "string"
+         },
+         "distributor_number": {
+            "type": "string"
+         },
+         "address": {
+            "type": "string"
+         },
+         "city": {
+            "type": "string"
+         },
+         "state": {
+            "type": "string"
+         },
+         "postal_cd": {
+            "type": "string"
+         },
+         "phone_no": {
+            "type": "string"
+         },
+         "latitude": {
+            "type": "number"
+         },
+         "longitude": {
+            "type": "number"
+         },
+         "last_update": {
+            "type": "integer"
+         },
+         "high_impact": {
+            "type": "string"
+         },
+         "unsold_account": {
+            "type": "string"
+         },
+         "premise_type": {
+            "type": "string"
+         },
+         "trade_classification": {
+            "type": "string"
+         },
+         "planning_group": {
+            "type": "string"
+         },
+         "distributor_rank_beer": {
+            "type": "object",
+            "properties": {
+               "total_sales_r365_ty": {
+                  "type": "number"
+               },
+               "total_sales_r365_ly": {
+                  "type": "number"
+               },
+               "volume_rank": {
+                  "type": "integer"
+               }
+            },
+            "required": [
+               "total_sales_r365_ty",
+               "total_sales_r365_ly",
+               "volume_rank"
+            ]
+         }
+      },
+      "required": [
+         "tdlinx_number",
+         "distributor_name",
+         "distributor_number",
+         "address",
+         "city",
+         "state",
+         "postal_cd",
+         "phone_no",
+         "latitude",
+         "longitude",
+         "last_update",
+         "high_impact",
+         "unsold_account",
+         "premise_type",
+         "trade_classification",
+         "planning_group",
+         "distributor_rank_beer"
+      ]
+   }
+}

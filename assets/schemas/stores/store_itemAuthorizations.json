@@ -1,0 +1,72 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "storeCode": {
+                "type": "string"
+            },
+            "authorizationCode": {
+                "type": "string"
+            },
+            "brandCode": {
+                "type": "string"
+            },
+            "brandName": {
+                "type": "string"
+            },
+            "packageID": {
+                "type": "string"
+            },
+            "packageName": {
+                "type": "string"
+            },
+            "typeCode": {
+                "enum": ["CM", "BM", "OS", "SP", "NA", "PN", "PA", "TB"]
+            },
+            "typeDescription": {
+                "type": "string"
+            },
+            "setPeriodStartDate": {
+                "type": ["string", "null"]
+            },
+            "setPeriodEndDate": {
+                "type": ["string", "null"]
+            },
+            "resetPeriodStartDate": {
+                "type": ["string", "null"]
+            },
+            "resetPeriodEndDate": {
+                "type": ["string", "null"]
+            },
+            "price": {
+                "type": "number"
+            },
+            "onMenuFlag": {
+                "enum": ["Y", "N"]
+            },
+            "additionalNotes": {
+                "type": ["string", "null"]
+            }
+        },
+        "required": [
+            "storeCode",
+            "authorizationCode",
+            "brandCode",
+            "brandName",
+            "packageID",
+            "packageName",
+            "typeCode",
+            "typeDescription",
+            "setPeriodStartDate",
+            "setPeriodEndDate",
+            "resetPeriodStartDate",
+            "resetPeriodEndDate",
+            "price",
+            "onMenuFlag",
+            "additionalNotes"
+        ]
+    },
+    "required": true
+}

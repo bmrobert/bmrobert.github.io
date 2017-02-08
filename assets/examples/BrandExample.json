@@ -1,0 +1,18 @@
+{
+  "code": "137",
+  "description": "BAROSSA VALLEY ESTATES",
+  "familyCode": "135",
+  "familyDescription": "BAROSSA VALLEY ESTATES",
+  "ownerCode": "106",
+  "ownerDescription": "OTHER",
+  "subBrands": [
+    {
+      "subBrandCode": "1062",
+      "subBrandDescription": "BAROSSA VALLEY ESTATE E MINOR"
+    },
+    {
+      "subBrandCode": "1069",
+      "subBrandDescription": "BAROSSA VALLEY ESTATES"
+    }
+  ]
+}

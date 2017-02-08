@@ -1,0 +1,6 @@
+{
+  "httpStatus": "OK",
+  "code": 200,
+  "message": "pong",
+  "description": "The Constellation Brands API is active and running."
+}

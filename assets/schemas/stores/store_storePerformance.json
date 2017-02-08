@@ -1,0 +1,140 @@
+{
+   "$schema": "http://json-schema.org/draft-04/schema#",
+   "definitions": {
+     "products": {
+       "type": "array",
+       "items": {
+         "type": "object",
+         "properties": {
+           "performance": {
+             "type": "array",
+             "items": {
+               "type": ["object","null"],
+               "properties": {
+                 "type": {
+                   "type": "string"
+                 },
+                 "measures": {
+                   "type": "array",
+                   "items": {
+                     "type": "object",
+                     "properties": {
+                       "timeframe": {
+                         "type": "string"
+                       },
+                       "current": {
+                         "type": "number"
+                       },
+                       "yearAgo": {
+                         "type": "number"
+                       },
+                       "similar": {
+                         "type": "number"
+                       }
+                     },
+                     "required": [
+                       "timeframe"
+                     ]
+                   }
+                 }
+               },
+               "required": [
+                 "type",
+                 "measures"
+               ]
+             }
+           }
+         },
+         "required": [
+           "performance"
+         ]
+       }
+     }
+   },
+
+   "type": "object",
+   "properties": {
+      "ID": {
+         "type": "string"
+      },
+      "storeName": {
+         "type": "string"
+      },
+      "storeCode": {
+         "type": "string"
+      },
+     "beerDistributorCode": {
+       "type": "string"
+     },
+     "beerDistributorName": {
+       "type": "string"
+     },
+     "address": {
+       "type": "string"
+     },
+     "city": {
+       "type": "string"
+     },
+     "state": {
+       "type": "string"
+     },
+     "postalCode": {
+       "type": "string"
+     },
+     "phoneNumber": {
+       "type": "string"
+     },
+     "latitude": {
+       "type": "string"
+     },
+     "longitude": {
+       "type": "string"
+     },
+     "highImpact": {
+       "type": "string"
+     },
+     "unsoldAccount": {
+       "type": "string"
+     },
+     "premiseType": {
+       "type": "string"
+     },
+     "tradeClassification": {
+       "type": "string"
+     },
+     "beerTradeClassification": {
+       "type": "string"
+     },
+     "planningGroup": {
+       "type": "string"
+     },
+     "lastUpdate": {
+       "type": "string"
+     },
+     "beerLastUpdate": {
+       "type": "string"
+     },
+     "beerFirstSoldDate": {
+       "type": "string"
+     },
+     "beerLastSoldDate": {
+       "type": "string"
+     },
+      "storePerformance": {
+         "type": "array",
+         "items": {
+            "type": "object",
+            "properties": {
+              "wineProducts": { "$ref": "#/definitions/products" },
+              "beerProducts": { "$ref": "#/definitions/products" }
+            }
+         }
+      }
+   },
+   "required": [
+      "ID",
+      "storeName",
+      "storeCode",
+      "storePerformance"
+   ]
+}

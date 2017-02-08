@@ -1,0 +1,146 @@
+{
+      "type": "object",
+      "$schema": "http://json-schema.org/draft-03/schema",
+      "id": "http://jsonschema.net",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "workerType": {
+          "type": "string",
+          "enum": ["Employee","Contingent Worker","Distributor"]
+        },
+        "firstName": {
+          "type": "string"
+        },
+        "middleName": {
+          "type": "string"
+        },
+        "lastName": {
+          "type": "string"
+        },
+        "preferredName": {
+          "type": "string"
+        },
+        "dateOfBirth": {
+          "type": "string",
+          "example": "2016-02-28"
+        },
+        "timezone": {
+          "type": "string"
+        },
+        "preferredLanguage": {
+          "type": "string",
+          "example": "en_US"
+        },
+        "createdOnDate": {
+          "type": "string",
+          "example": "2016-02-28T16:41:41.090Z"
+        },
+        "activeDirectoryDomain": {
+          "type": "string",
+          "example": "CWC"
+        },
+        "job": {
+          "type": "object",
+          "properties": {
+            "code": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "status": {
+              "type": "string",
+              "enum": ["Active","Terminated","On Leave"]
+            },
+            "isManager": {
+              "type": "boolean"
+            },
+            "organizationName": {
+              "type": "string"
+            },
+            "managerId": {
+              "type": "string"
+            },
+            "managerName": {
+              "type": "string"
+            },
+            "company": {
+              "type": "string"
+            },
+            "department": {
+              "type": "string",
+              "example": "IT"
+            },
+            "division": {
+              "type": "string"
+            },
+            "costCenterId": {
+              "type": "string"
+            },
+            "costCenterName": {
+              "type": "string"
+            },
+            "startDate": {
+              "type": "string",
+              "example": "2016-02-28"
+            }
+          }
+        },
+        "workContactInfo": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string"
+            },
+            "phoneNumber": {
+              "type": "string"
+            },
+            "location": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "address1": {
+                  "type": "string"
+                },
+                "address2": {
+                  "type": "string"
+                },
+                "address3": {
+                  "type": "string"
+                },
+                "city": {
+                  "type": "string"
+                },
+                "state_province": {
+                  "type": "string"
+                },
+                "postalCode": {
+                  "type": "string"
+                },
+                "country": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "personalContactInfo": {
+          "type": "object",
+          "properties": {
+            "mobilePhoneNumber": {
+              "type": "string"
+            },
+            "homePhoneNumber": {
+              "type": "string"
+            },
+            "email": {
+              "type": "string"
+            }
+          }
+        }
+      }
+}

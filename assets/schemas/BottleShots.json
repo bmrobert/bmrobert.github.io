@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string"
+      },
+      "dateCreated": {
+        "type": "string"
+      },
+      "datePublished": {
+        "type": "string"
+      },
+      "dateModified": {
+        "type": "string"
+      },
+      "extension": {
+        "type": "string"
+      },
+      "upc": {
+        "type": "string"
+      },
+      "brandFamily": {
+        "type": "string"
+      },
+      "varietal": {
+        "type": "string"
+      },
+      "vintage": {
+        "type": "string"
+      },
+      "itemSize": {
+        "type": "string"
+      },
+      "webImage": {
+        "type": "string"
+      },
+      "miniImage": {
+        "type": "string"
+      },
+      "standardFinalJpeg": {
+        "type": "string"
+      },
+      "thul": {
+        "type": "string"
+      },
+      "transparentPNG": {
+        "type": "string"
+      }
+    },
+    "required": ["id", "name"]
+  }
+}

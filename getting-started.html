@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="assets/favicon.ico">
+    <script src="https://use.fontawesome.com/d7623d0ea2.js"></script>
+
+    <title>Getting Started</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/api-portal.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><img class="img-responsive" src="assets/logo.png" height="38"></a>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <a class="btn btn-primary" href="https://anypoint.mulesoft.com/apiplatform/cbrands/#/portals" role="button">API Developer Portal &raquo;</a>
+        </form>
+      </div>
+    </nav>
+
+    <div class="row">
+      <div class="container">
+        <p class="float-left hidden-md-up">
+          <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
+        </p>  
+        <div class="jumbotron">
+          <h1>Constellation Brands API Catalog</h1>
+          <p>Developer guides and documentation for all Constellation Brands APIs.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-left">
+
+        <div class="col-6 col-md-3 sidebar-offcanvas" id="sidebar">
+          <div class="list-group">
+            <a href="getting-started.html" class="list-group-item active"><i class="fa fa-info-circle fa-fw fa-lg" aria-hidden="true"></i>Getting Started</a>
+            <a href="compass-api.html" class="list-group-item"><i class="fa fa-compass fa-fw fa-lg" aria-hidden="true"></i>Compass API</a>
+            <a href="brands-api.html" class="list-group-item"><i class="fa fa-tags fa-fw fa-lg" aria-hidden="true"></i>Brands API</a>            
+            <a href="items-api.html" class="list-group-item"><i class="fa fa-shopping-cart fa-fw fa-lg" aria-hidden="true"></i>Items API</a>            
+            <a href="bottle-shots-api.html" class="list-group-item"><i class="fa fa-picture-o fa-fw fa-lg" aria-hidden="true"></i>Bottle Shots API</a>
+            <a href="worker-api.html" class="list-group-item"><i class="fa fa-users fa-fw fa-lg" aria-hidden="true"></i>Workers API</a>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-9">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-9">
+              <h2>Getting Started</h2>
+              <p>Constellation Brands provides several APIs for access to item, brand, and worker demographics data.</p>
+              <p>Visit the <a href="https://anypoint.mulesoft.com/apiplatform/cbrands/#/portals">developer portal</a> to request an API key.</p>
+              <h3 style="margin-top:50px;">Accessing an API Directly</h3>
+              <p>
+                Use a basic GET request to retrieve API data. For example, to find information for a specific item, you can query our Items API using the appropriate item ID. The ID for Inniskillin Riesling is 1002, so you can retrieve it as shown here.
+              </p>
+              <p><code>GET https://mocksvc.mulesoft.com/what/is/the/url/1.0/items/1002</code></p>
+              <p>The above command returns the following JSON:</p>
+              <pre><code>{
+  "beverageSegmentCode": "100",
+  "beverageSegmentDescription": "WINE",
+  "brandCode": "343",
+  "gtin": "620654020010",
+  "id": "1002",
+  "itemCode": "100",
+  "itemDescription": "INNA EST RIES VQA 750/12",
+  "subBrandCode": "2391",
+  "typeCode": "102",
+  "universalSKUCode": "23011",
+  "universalSKUDescription": "INNISKILLIN NIAGARA EST COL RIESLING 750ML",
+  "upc": "062065402001",
+  "varietalBlendCode": "632",
+  "vintageDescription": "N/A"
+}</code></pre>
+              <div class="alert alert-info" role="alert">
+                <strong><i class="fa fa-info-circle" aria-hidden="true"></i></strong> Be sure to replace YourAPIKey with the API key that you received after registering.
+              </div>
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; Constellation Brands, Inc. 2017</p>
+      </footer>
+
+    </div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="../dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/offcanvas.js"></script>
+  </body>
+</html>

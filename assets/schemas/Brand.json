@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "ownerCode": {
+      "type": "string"
+    },
+    "ownerDescription": {
+      "type": "string"
+    },
+    "familyCode": {
+      "type": "string"
+    },
+    "familyDescription": {
+      "type": "string"
+    },
+    "subBrands": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "subBrandCode": {
+            "type": "string"
+          },
+          "subBrandDescription": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "subBrandCode"
+        ],
+        "minItems": 0
+      }
+    }
+  },
+  "required": [
+    "code",
+    "description",
+    "ownerCode",
+    "ownerDescription",
+    "subBrands"
+  ]
+}

@@ -1,0 +1,532 @@
+{
+   "$schema": "http://json-schema.org/draft-04/schema#",
+   "type": "object",
+   "properties": {
+      "ID": {
+         "type": "string"
+      },
+      "storeName": {
+         "type": "string"
+      },
+      "storeCode": {
+         "type": "string"
+      },
+      "address": {
+         "type": "string"
+      },
+      "city": {
+         "type": "string"
+      },
+      "state": {
+         "type": "string"
+      },
+      "postalCode": {
+         "type": "string"
+      },
+      "phoneNumber": {
+         "type": "string"
+      },
+      "latitude": {
+         "type": "string"
+      },
+      "longitude": {
+         "type": "string"
+      },
+      "premiseType": {
+         "type": "string"
+      },
+      "beerTradeClassification": {
+         "type": "string"
+      },
+      "chainFlg": {
+         "type": "string"
+      },
+      "packagePerformance": {
+         "type": "object",
+         "properties": {
+            "beerPerformance": {
+               "type": "object",
+               "properties": {
+                  "type": {
+                     "type": "string"
+                  },
+                  "measures": {
+                     "type": "array",
+                     "items": {
+                        "type": "object",
+                        "properties": {
+                           "timeframe": {
+                              "type": "string"
+                           },
+                           "yearAgo": {
+                              "type": "number"
+                           }
+                        },
+                        "required": [
+                           "timeframe",
+                           "yearAgo"
+                        ]
+                     }
+                  },
+                  "performanceComparisons": {
+                     "type": "array",
+                     "items": {
+                        "type": "object",
+                        "properties": {
+                           "Ultimate Parent": {
+                              "type": "object",
+                              "properties": {
+                                 "ID": {
+                                    "type": "string"
+                                 },
+                                 "name": {
+                                    "type": "string"
+                                 },
+                                 "totals": {
+                                    "type": "array",
+                                    "items": {
+                                       "type": "object",
+                                       "properties": {
+                                          "timeframe": {
+                                             "type": "string"
+                                          },
+                                          "yearAgo": {
+                                             "type": "number"
+                                          }
+                                       },
+                                       "required": [
+                                          "timeframe",
+                                          "yearAgo"
+                                       ]
+                                    }
+                                 }
+                              },
+                              "required": [
+                                 "ID",
+                                 "name",
+                                 "totals"
+                              ]
+                           }
+                        }
+                     }
+                  }
+               },
+               "required": [
+                  "type",
+                  "measures",
+                  "performanceComparisons"
+               ]
+            },
+            "beerVelocity": {
+               "type": "object",
+               "properties": {
+                  "measures": {
+                     "type": "array",
+                     "items": {
+                        "type": "object",
+                        "properties": {
+                           "timeframe": {
+                              "type": "string"
+                           },
+                           "yearAgo": {
+                              "type": "number"
+                           }
+                        },
+                        "required": [
+                           "timeframe",
+                           "yearAgo"
+                        ]
+                     }
+                  },
+                  "performanceComparisons": {
+                     "type": "array",
+                     "items": {
+                        "type": "object",
+                        "properties": {
+                           "Ultimate Parent": {
+                              "type": "object",
+                              "properties": {
+                                 "ID": {
+                                    "type": "string"
+                                 },
+                                 "name": {
+                                    "type": "string"
+                                 },
+                                 "totals": {
+                                    "type": "array",
+                                    "items": {
+                                       "type": "object",
+                                       "properties": {
+                                          "timeframe": {
+                                             "type": "string"
+                                          },
+                                          "yearAgo": {
+                                             "type": "number"
+                                          }
+                                       },
+                                       "required": [
+                                          "timeframe",
+                                          "yearAgo"
+                                       ]
+                                    }
+                                 }
+                              },
+                              "required": [
+                                 "ID",
+                                 "name",
+                                 "totals"
+                              ]
+                           }
+                        }
+                     }
+                  }
+               },
+               "required": [
+                  "measures",
+                  "performanceComparisons"
+               ]
+            },
+            "beerProducts": {
+               "type": "array",
+               "items": {
+                  "type": "object",
+                  "properties": {
+                     "ID": {
+                        "type": "string"
+                     },
+                     "brandName": {
+                        "type": "string"
+                     },
+                     "brandCode": {
+                        "type": "string"
+                     },
+                     "brandOrderCounts": {
+                        "type": "object",
+                        "properties": {
+                           "CYTD": {
+                              "type": "number"
+                           },
+                           "L365": {
+                              "type": "number"
+                           },
+                           "L120": {
+                              "type": "number"
+                           },
+                           "L90": {
+                              "type": "number"
+                           },
+                           "L60": {
+                              "type": "number"
+                           },
+                           "L30": {
+                              "type": "number"
+                           },
+                           "CMIP": {
+                              "type": "number"
+                           }
+                        },
+                        "required": [
+                           "CYTD",
+                           "L365",
+                           "L120",
+                           "L90",
+                           "L60",
+                           "L30",
+                           "CMIP"
+                        ]
+                     },
+                     "performance": {
+                        "type": "object",
+                        "properties": {}
+                     },
+                     "velocity": {
+                        "type": "object",
+                        "properties": {
+                           "measures": {
+                              "type": "array",
+                              "items": {
+                                 "type": "object",
+                                 "properties": {
+                                    "timeframe": {
+                                       "type": "string"
+                                    },
+                                    "yearAgo": {
+                                       "type": "number"
+                                    }
+                                 },
+                                 "required": [
+                                    "timeframe",
+                                    "yearAgo"
+                                 ]
+                              }
+                           },
+                           "performanceComparisons": {
+                              "type": "array",
+                              "items": {
+                                 "type": "object",
+                                 "properties": {
+                                    "Ultimate Parent": {
+                                       "type": "object",
+                                       "properties": {
+                                          "ID": {
+                                             "type": "string"
+                                          },
+                                          "name": {
+                                             "type": "string"
+                                          },
+                                          "totals": {
+                                             "type": "array",
+                                             "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                   "timeframe": {
+                                                      "type": "string"
+                                                   },
+                                                   "yearAgo": {
+                                                      "type": "number"
+                                                   }
+                                                },
+                                                "required": [
+                                                   "timeframe",
+                                                   "yearAgo"
+                                                ]
+                                             }
+                                          }
+                                       },
+                                       "required": [
+                                          "ID",
+                                          "name",
+                                          "totals"
+                                       ]
+                                    }
+                                 }
+                              }
+                           }
+                        },
+                        "required": [
+                           "measures",
+                           "performanceComparisons"
+                        ]
+                     },
+                     "beerPackages": {
+                        "type": "array",
+                        "items": {
+                           "type": "object",
+                           "properties": {
+                              "packageID": {
+                                 "type": "string"
+                              },
+                              "packageName": {
+                                 "type": "string"
+                              },
+                              "lastSoldDate": {
+                                 "type": ["string","null"]
+                              },
+                              "priceToRetailer": {
+                                 "type": ["string","null"]
+                              },
+                              "riskFlag": {
+                                 "type": "string"
+                              },
+                              "newFlag": {
+                                 "type": "string"
+                              },
+                              "priorityFlag": {
+                                 "type": "string"
+                              },
+                              "performance": {
+                                 "type": "object",
+                                 "properties": {
+                                    "type": {
+                                       "type": "string"
+                                    },
+                                    "measures": {
+                                       "type": "array",
+                                       "items": {
+                                          "type": "object",
+                                          "properties": {
+                                             "timeframe": {
+                                                "type": "string"
+                                             },
+                                             "yearAgo": {
+                                                "type": "number"
+                                             }
+                                          },
+                                          "required": [
+                                             "timeframe",
+                                             "yearAgo"
+                                          ]
+                                       }
+                                    },
+                                    "performanceComparisons": {
+                                       "type": "array",
+                                       "items": {
+                                          "type": "object",
+                                          "properties": {
+                                             "DMA": {
+                                                "type": "object",
+                                                "properties": {
+                                                   "ID": {
+                                                      "type": "string"
+                                                   },
+                                                   "name": {
+                                                      "type": "string"
+                                                   },
+                                                   "totals": {
+                                                      "type": "array",
+                                                      "items": {
+                                                         "type": "object",
+                                                         "properties": {
+                                                            "timeframe": {
+                                                               "type": "string"
+                                                            },
+                                                            "yearAgo": {
+                                                               "type": "number"
+                                                            }
+                                                         },
+                                                         "required": [
+                                                            "timeframe",
+                                                            "yearAgo"
+                                                         ]
+                                                      }
+                                                   }
+                                                },
+                                                "required": [
+                                                   "ID",
+                                                   "name",
+                                                   "totals"
+                                                ]
+                                             }
+                                          }
+                                       }
+                                    }
+                                 },
+                                 "required": [
+                                    "type",
+                                    "measures",
+                                    "performanceComparisons"
+                                 ]
+                              },
+                              "velocity": {
+                                 "type": "array",
+                                 "items": {
+                                    "type": "object",
+                                    "properties": {
+                                       "measures": {
+                                          "type": "array",
+                                          "items": {
+                                             "type": "object",
+                                             "properties": {
+                                                "timeframe": {
+                                                   "type": "string"
+                                                },
+                                                "yearAgo": {
+                                                   "type": "number"
+                                                }
+                                             },
+                                             "required": [
+                                                "timeframe",
+                                                "yearAgo"
+                                             ]
+                                          }
+                                       },
+                                       "performanceComparisons": {
+                                          "type": "array",
+                                          "items": {
+                                             "type": "object",
+                                             "properties": {
+                                                "Ultimate Parent": {
+                                                   "type": "object",
+                                                   "properties": {
+                                                      "ID": {
+                                                         "type": "string"
+                                                      },
+                                                      "name": {
+                                                         "type": "string"
+                                                      },
+                                                      "totals": {
+                                                         "type": "array",
+                                                         "items": {
+                                                            "type": "object",
+                                                            "properties": {
+                                                               "timeframe": {
+                                                                  "type": "string"
+                                                               },
+                                                               "yearAgo": {
+                                                                  "type": "number"
+                                                               }
+                                                            },
+                                                            "required": [
+                                                               "timeframe",
+                                                               "yearAgo"
+                                                            ]
+                                                         }
+                                                      }
+                                                   },
+                                                   "required": [
+                                                      "ID",
+                                                      "name",
+                                                      "totals"
+                                                   ]
+                                                }
+                                             }
+                                          }
+                                       }
+                                    },
+                                    "required": [
+                                       "measures",
+                                       "performanceComparisons"
+                                    ]
+                                 }
+                              }
+                           },
+                           "required": [
+                              "packageID",
+                              "packageName",
+                              "lastSoldDate",
+                              "priceToRetailer",
+                              "riskFlag",
+                              "newFlag",
+                              "priorityFlag",
+                              "performance",
+                              "velocity"
+                           ]
+                        }
+                     }
+                  },
+                  "required": [
+                     "ID",
+                     "brandName",
+                     "brandCode",
+                     "brandOrderCounts",
+                     "performance",
+                     "velocity",
+                     "beerPackages"
+                  ]
+               }
+            }
+         },
+         "required": [
+            "beerPerformance",
+            "beerVelocity",
+            "beerProducts"
+         ]
+      }
+   },
+   "required": [
+      "ID",
+      "storeName",
+      "storeCode",
+      "address",
+      "city",
+      "state",
+      "postalCode",
+      "phoneNumber",
+      "latitude",
+      "longitude",
+      "premiseType",
+      "beerTradeClassification",
+      "chainFlg",
+      "packagePerformance"
+   ]
+}

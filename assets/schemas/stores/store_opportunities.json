@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "storeID": {
+      "type": "string"
+    },
+    "opportunities": {
+      "type": "object",
+      "properties": {
+        "MVP": {
+          "type": "object",
+          "properties": {
+            "Beer": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "rank": {
+                    "type": "integer"
+                  },
+                  "USKUDescription": {
+                    "type": "string"
+                  },
+                  "totalSales": {
+                    "type": "number"
+                  },
+                  "totalSalesYAG": {
+                    "type": "number"
+                  }
+                },
+                "required": [
+                  "rank",
+                  "USKUDescription",
+                  "totalSales",
+                  "totalSalesYAG"
+                ]
+              }
+            },
+            "Spirits": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "rank": {
+                    "type": "integer"
+                  },
+                  "highImpact": {
+                    "type": "string"
+                  },
+                  "UPC": {
+                    "type": "string"
+                  },
+                  "USKUDescription": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "rank",
+                  "highImpact",
+                  "UPC",
+                  "USKUDescription"
+                ]
+              }
+            },
+            "Wine": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "rank": {
+                    "type": "integer"
+                  },
+                  "highImpact": {
+                    "type": "string"
+                  },
+                  "UPC": {
+                    "type": "string"
+                  },
+                  "USKUDescription": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "rank",
+                  "highImpact",
+                  "UPC",
+                  "USKUDescription"
+                ]
+              }
+            }
+          },
+          "required": [
+            "Beer",
+            "Spirits",
+            "Wine"
+          ]
+        }
+      },
+      "required": [
+        "MVP"
+      ]
+    },
+    "AuthorizationVoids": {
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "required": [
+    "storeID",
+    "opportunities",
+    "AuthorizationVoids"
+  ]
+}
