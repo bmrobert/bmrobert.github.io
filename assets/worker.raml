@@ -13,7 +13,7 @@ securitySchemes:
 types:
   Worker: !include schemas/Worker.json
   Workers: !include schemas/WorkerCollection.json
-  Error: !include schemas/Error.json
+  Error: !include schemas/WorkerError.json
 /workers:
   get:
     description: Retrieves all of the workers in the system that match the filtering criteria. Note, paganation applies to the results of this API call. If workerType not specified, first employees are returned and then distributor
