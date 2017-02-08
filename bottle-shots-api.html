@@ -22,18 +22,11 @@
 
   <body>
 
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"><img class="img-responsive" src="assets/logo.png" height="38"></a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <a class="btn btn-primary" href="https://anypoint.mulesoft.com/apiplatform/cbrands/#/portals" role="button">API Developer Portal &raquo;</a>
-        </form>
-      </div>
+    <nav class="navbar navbar-toggleable-xl navbar-light bg-faded">
+      <a class="navbar-brand mr-auto" href="index.html"><img class="img-responsive" src="assets/logo.png" height="38"></a>
+      <form class="form-inline pull-xl-right">
+        <a class="btn btn-primary" href="https://anypoint.mulesoft.com/apiplatform/cbrands/#/portals" role="button">API Developer Portal &raquo;</a>
+      </form>
     </nav>
 
     <div class="jumbotron">
@@ -65,16 +58,16 @@
           <div class="row justify-content-center">
             <div class="col-12 col-md-9">
               <h2>Bottle Shots API Overview</h2>
-              <p>This API retrieves demographic information for employees of Constellation Brands and 3rd party partners. This includes:</p>
+              <p>This API returns promotional product images ("bottle shots") based on GTIN or UPC. It includes some identifying information about the product as well as a variety of image formats:</p>
               <p>
                 <ul>
-                  <li>Constellation Brands employees</li>
-                  <li>Contingent workers</li>
-                  <li>Distributor and customer employees</li>
+                  <li>Mini image (PNG)</li>
+                  <li>Standard final JPEG (JPG)</li>
+                  <li>Web image (full-size PNG)</li>
                 </ul>
               </p>
               <p>
-                The API supports retrieval of all employees’ information, specific employees, and employees added/modified within specific date range. The API doesn’t provide the entire dataset in one call, but does support pagination. Consumers can dictate how many records they need to retrieve.
+                The API can return a specific product or all product images modified since a specific date.
               </p>
               <h2 style="margin-top:50px;">API Console</h2>
               <div ng-app="ramlConsoleApp" ng-cloak class="raml-console-body api-console">

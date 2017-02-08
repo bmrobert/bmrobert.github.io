@@ -68,6 +68,16 @@ a {
   }
 }
 
+@media screen and (min-width: 767px) {
+  .card-row {
+    margin-bottom: 2em;
+  }
+
+  .card {
+    min-height: 270px;
+  }
+}
+
 .jumbotron{
   border-radius: 0;
   background: #021d5b;
@@ -101,6 +111,17 @@ a {
 .btn-primary {
   background-color: #0077c0;
   border-color: #0077c0;
+}
+
+.btn-secondary {
+  background-color: #fec240;
+  border-color: #fec240;
+  font-weight: 300;
+}
+
+.btn-secondary:hover {
+  background-color: #d48a1d;
+  border-color: #d48a1d;
 }
 
 .lead {

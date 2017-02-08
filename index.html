@@ -11,66 +11,78 @@
 
     <title>Constellation Brands API Catalog</title>
 
-    <!-- Custom styles for this catalog -->
-    <link href="css/api-portal.css" rel="stylesheet">
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this catalog -->
+    <link href="css/api-portal.css" rel="stylesheet">
   </head>
 
   <body>
 
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"><img class="img-responsive" src="assets/logo.png" height="38"></a>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <a class="btn btn-primary" href="https://anypoint.mulesoft.com/apiplatform/cbrands/#/portals" role="button">API Developer Portal &raquo;</a>
-        </form>
-      </div>
+    <nav class="navbar navbar-toggleable-xl navbar-light bg-faded">
+      <a class="navbar-brand mr-auto" href="index.html"><img class="img-responsive" src="assets/logo.png" height="38"></a>
+      <form class="form-inline pull-xl-right">
+        <a class="btn btn-primary" href="https://anypoint.mulesoft.com/apiplatform/cbrands/#/portals" role="button">API Developer Portal &raquo;</a>
+      </form>
     </nav>
 
     <div class="jumbotron">
       <div class="container">
-        <h1 class="display-3">Constellation Brands API Catalog</h1>
-        <p>Constellation Brands APIs provide easy, instant access to a variety of datasets. Explore the available APIs and request access to get started.</p>
-        <p><a class="btn btn-primary btn-lg" href="getting-started.html" role="button">Get started &raquo;</a></p>
+        <h1 class="display-4">Constellation Brands API Catalog</h1>
+        <p class="lead">Developer guides and documentation for Constellation Brands APIs.</p>
+        <p><a class="btn btn-secondary btn-lg" href="getting-started.html" role="button">Get started &raquo;</a></p>
       </div>
     </div>
 
     <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="card-deck">
+      <div class="row card-row">
+        <div class="col-md-4">
+          <div class="card"><a class=card-link href="compass-api.html">
+            <div class="card-block">
+              <p class="text-center"><i class="fa fa-compass fa-3x" aria-hidden="true"></i></p>
+              <h3 class="card-title text-center">Compass</h3>
+              <p class="card-text">Internal Compass API that provides store and brand performance data.</p>
+            </div></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card"><a class=card-link href="brands-api.html">
+            <div class="card-block">
+              <p class="text-center"><i class="fa fa-tags fa-3x" aria-hidden="true"></i></p>
+              <h3 class="card-title text-center">Brands</h3>
+              <p class="card-text">Identifying information for brands in the Constellation Brands portfolio. Includes brands, sub-brands, and owners.</p>
+            </div></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card"><a class=card-link href="items-api.html">
+            <div class="card-block">
+              <p class="text-center"><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></p>
+              <h3 class="card-title text-center">Items</h3>
+              <p class="card-text">Item data including classification, GTIN, UPC, packaging, and origin.</p>
+            </div></a>
+          </div>
+        </div>
+      </div>
 
-            <div class="card"><a class=card-link href="worker-api.html">
-              <div class="card-block">
-                <p class="text-center"><i class="fa fa-users fa-3x" aria-hidden="true"></i></p>
-                <h3 class="card-title text-center">Worker Demographics</h3>
-                <p class="card-text">Basic identification data for Constellation employees and 3<sup>rd</sup> party partners. Includes contact information for easy account setup in external systems.</p>
-              </div></a>
-            </div>
-
-            <div class="card">
-              <div class="card-block">
-                <p class="text-center"><i class="fa fa-shopping-cart fa-3x" aria-hidden="true"></i></p>
-                <h3 class="card-title text-center">Items</h3>
-                <p class="card-text">Here's where we describe Items. We have a bunch of them. Neat!</p>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-block">
-                <p class="text-center"><i class="fa fa-tags fa-3x" aria-hidden="true"></i></p>
-                <h3 class="card-title text-center">Brands</h3>
-                <p class="card-text">Here's where we describe Brands. I think there are also a bunch of these. Rad!</p>
-              </div>
-            </div>
-
+      <div class="row card-row">
+        <div class="col-md-4">
+          <div class="card"><a class=card-link href="bottle-shots-api.html">
+            <div class="card-block">
+              <p class="text-center"><i class="fa fa-picture-o fa-3x" aria-hidden="true"></i></p>
+              <h3 class="card-title text-center">Bottle Shots</h3>
+              <p class="card-text">Returns promotional product images ("bottle shots") based on GTIN or UPC.</p>
+            </div></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card"><a class=card-link href="worker-api.html">
+            <div class="card-block">
+              <p class="text-center"><i class="fa fa-users fa-3x" aria-hidden="true"></i></p>
+              <h3 class="card-title text-center">Worker Demographics</h3>
+              <p class="card-text">Basic identification data for Constellation employees and 3<sup>rd</sup> party partners. Includes contact information for easy account setup in external systems.</p>
+            </div></a>
           </div>
         </div>
       </div>
