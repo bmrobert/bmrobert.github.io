@@ -58,18 +58,261 @@
           <div class="row justify-content-center">
             <div class="col-12 col-md-9">
               <h2>Worker Demographics API Overview</h2>
-              <p>This API retrieves demographic information for employees of Constellation Brands and 3rd party partners. This includes:</p>
+              <p>This API retrieves demographic information for employees of Constellation Brands and 3rd party partners. This reference includes:</p>
               <p>
                 <ul>
-                  <li>Constellation Brands employees</li>
-                  <li>Contingent workers</li>
-                  <li>Distributor and customer employees</li>
+                  <li><a href=#worker-info>Worker Attributes</a></li>
+                  <li><a href=#job-info>Job Attributes</a></li>
+                  <li><a href=#work-contact-info>Work Contact Information</a></li>
+                  <li><a href=#personal-contact-info>Personal Contact Information</a></li>
+                  <li><a href=#api-console>API Console</a></li>
                 </ul>
               </p>
               <p>
-                The API supports retrieval of all employees’ information, specific employees, and employees added/modified within specific date range. The API doesn’t provide the entire dataset in one call, but does support pagination. Consumers can dictate how many records they need to retrieve.
+                The Worker API supports retrieval of all employees’ information, specific employees, and employees added/modified within specific date range. The API doesn’t provide the entire dataset in one call, but does support pagination. Consumers can dictate how many records they need to retrieve.
               </p>
-              <h2 style="margin-top:50px;">API Console</h2>
+              <a class="btn btn-primary" href="https://anypoint.mulesoft.com/apiplatform/cbrands/#/portals/organizations/564b3d5d-bd16-4fe1-9d7e-1bfade9b4ee7/apis/8484571/versions/115128" role="button"><i class="fa fa-key fa-fw" aria-hidden="true"></i>Request an API Key</a>
+              <h2 style="margin-top:50px;">Worker Detail</h2>
+              <p>
+                The Worker Demographics API returns a number of attributes for a given employee. This includes personal info, job info, and contact info.
+              </p>
+              <h3 id="worker-info" style="margin-top:30px;">Worker Attributes</h3>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                    <th>Type</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">ID</th>
+                    <td>7-digit unique employee ID</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">workerType</th>
+                    <td>"Employee", "Contingent Worker", or "Distributor"</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">firstName</th>
+                    <td>Legal first name</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">middleName</th>
+                    <td>Legal middle name or initial (whichever is supplied in the worker's record)</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">lastName</th>
+                    <td>Legal surname</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">preferredName</th>
+                    <td>Concatenated full preferred name (First Middle Last)</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">dateOfBirth</th>
+                    <td>Birth date (YYYY-MM-DD)</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">timeZone</th>
+                    <td>Time zone of the worker's work location</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">preferredLanguage</th>
+                    <td>Language specified by the worker as preferred for user interfaces</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">createdOnDate</th>
+                    <td>Date and time the worker's user account was created (YYYY-MM-DD:hh:mm.ssss)</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">activeDirectoryDomain</th>
+                    <td>Worker's domain in Constellation Brands Active Directory (if applicable)</td>
+                    <td>string</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="job-info" style="margin-top:30px;">Job Attributes</h3>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                    <th>Type</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">code</th>
+                    <td>7-digit job code</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">title</th>
+                    <td>Worker's job title as assigned by HR</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">status</th>
+                    <td>"Active", "Terminated", or "On Leave"</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">isManager</th>
+                    <td>True/false flag indicating if the worker has any direct reports</td>
+                    <td>boolean</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">organizationName</th>
+                    <td>HR name for the worker's supervisory organization</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">managerId</th>
+                    <td>7-digit worker ID of the worker's primary manager</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">managerName</th>
+                    <td>Concatenated preferred name of the worker's primary manager</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">company</th>
+                    <td>Legal parent company for the specified worker</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">department</th>
+                    <td>Worker's department in the reporting hierarchy (one level above Organization)</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">division</th>
+                    <td>Worker's division in the reporting hierarhy (one level above Department)</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">costCenterId</th>
+                    <td>Numeric identifier for the worker's cost center</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">costCenterName</th>
+                    <td>Descriptor for the worker's cost center</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">startDate</th>
+                    <td>First day of work for the worker in their current position (YYYY-MM-DD)</td>
+                    <td>string</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="work-contact-info" style="margin-top:30px;">Work Contact Information</h3>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                    <th>Type</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">email</th>
+                    <td>Primary work email address</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">phoneNumber</th>
+                    <td>Primary work phone number</td>
+                    <td>string</td>
+                  </tr>
+                  <tr class="table-info">
+                    <th scope="row" colspan="4">Location</th>
+                  </tr>
+                  <tr class="table-info">
+                    <th scope="row">name</th>
+                    <td>Name of worker's primary work location</td>
+                    <td>string</td>
+                  </tr>
+                  <tr class="table-info">
+                    <th scope="row">address1</th>
+                    <td>Line 1 of the primary work location's address</td>
+                    <td>string</td>
+                  </tr>
+                  <tr class="table-info">
+                    <th scope="row">address2</th>
+                    <td>Line 2 of the primary work location's address</td>
+                    <td>string</td>
+                  </tr>
+                  <tr class="table-info">
+                    <th scope="row">address3</th>
+                    <td>Line 3 of the primary work location's address</td>
+                    <td>string</td>
+                  </tr>
+                  <tr class="table-info">
+                    <th scope="row">city</th>
+                    <td>City of the primary work location's address</td>
+                    <td>string</td>
+                  </tr>
+                  <tr class="table-info">
+                    <th scope="row">state_province</th>
+                    <td>State/province of the primary work location's address</td>
+                    <td>string</td>
+                  </tr>
+                  <tr class="table-info">
+                    <th scope="row">postalCode</th>
+                    <td>Postal code of the primary work location's address</td>
+                    <td>string</td>
+                  </tr>
+                  <tr class="table-info">
+                    <th scope="row">country</th>
+                    <td>Country of the primary work location's address</td>
+                    <td>string</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="personal-contact-info" style="margin-top:30px;">Personal Contact Information</h3>
+              <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                    <th>Type</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">mobilePhoneNumber</th>
+                    <td>Personal mobile phone number</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">homePhoneNumber</th>
+                    <td>Home phone number</td>
+                    <td>string</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">email</th>
+                    <td>Primary personal email address</td>
+                    <td>string</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h2 id="api-console" style="margin-top:50px;">API Console</h2>
               <div ng-app="ramlConsoleApp" ng-cloak class="raml-console-body api-console">
                 <raml-console-loader src="assets/worker.raml" options="{ disableTitle: true, disableRamlClientGenerator: true, disableThemeSwitcher: true, documentationCollapsed: true, singleView: true }"></raml-console-loader>
               </div>

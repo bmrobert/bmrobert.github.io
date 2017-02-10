@@ -131,3 +131,7 @@ a {
 .bg-faded {
   background: #eceeef;
 }
+
+tbody {
+  font-size: .8em;
+}
