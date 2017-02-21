@@ -8,6 +8,12 @@
     <meta name="author" content="">
     <link rel="icon" href="assets/favicon.ico">
     <script src="https://use.fontawesome.com/d7623d0ea2.js"></script>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+      <script type="text/javascript">
+         (function(){
+            emailjs.init("user_h2PCsp6JtsNaWSqiA64s7");
+         })();
+      </script>
 
     <title>Worker Demographics API</title>
 
@@ -71,7 +77,48 @@
               <p>
                 The Worker API supports retrieval of all employees’ information, specific employees, and employees added/modified within specific date range. The API doesn’t provide the entire dataset in one call, but does support pagination. Consumers can dictate how many records they need to retrieve.
               </p>
-              <a class="btn btn-primary" href="https://anypoint.mulesoft.com/apiplatform/cbrands/#/portals/organizations/564b3d5d-bd16-4fe1-9d7e-1bfade9b4ee7/apis/8484571/versions/115128" role="button"><i class="fa fa-key fa-fw" aria-hidden="true"></i>Request an API Key</a>
+
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#requestKeyModal">
+                <i class="fa fa-key fa-fw" aria-hidden="true"></i>Request an API Key
+              </button>
+
+              <div class="modal fade" id="requestKeyModal" tabindex="-1" role="dialog" aria-labelledby="requestKeyModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="requestKeyModalLabel">Request a Worker API Key</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <form id="requestForm" method="post">
+                      <div class="modal-body">
+                        <div class="form-group">
+                          <label for="name-input">Name</label>
+                          <input class="form-control" type="text" id="name-input" name="name">
+                        </div>
+                        <div class="form-group">
+                          <label for="email-input">Email address</label>
+                          <input type="email" class="form-control" id="email-input" name="email">
+                        </div>
+                        <div class="form-group">
+                          <label for="phone-input">Phone number</label>
+                          <input type="tel" class="form-control" id="phone-input" name="phone">
+                        </div>
+                        <div class="form-group">
+                          <label for="optional-input">Additional detail (optional)</label>
+                          <textarea class="form-control" id="optional-input" rows="3" placeholder="Application name, estimated number of API calls, etc."></textarea>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-primary" id="submit">Request Key</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+
               <h2 style="margin-top:50px;">Worker Detail</h2>
               <p>
                 The Worker Demographics API returns a number of attributes for a given employee. This includes personal info, job info, and contact info.
@@ -325,7 +372,7 @@
       <hr>
 
       <footer>
-        <p>&copy; Constellation Brands, Inc. 2017</p>
+        <p>&copy; 2017 Constellation Brands, Inc.</p>
       </footer>
 
     </div><!--/.container-->
@@ -343,6 +390,10 @@
     <script src="js/offcanvas.js"></script>
     <script src="js/api-console-vendor.min.js"></script>
     <script src="js/api-console.min.js"></script>
+    <script>
+      $('#requestKeyModal').modal()
+    </script>
+    <script src="js/request-form.js"></script>
     <script>
       $.noConflict();
     </script>

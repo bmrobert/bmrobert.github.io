@@ -113,13 +113,13 @@ a {
   border-color: #0077c0;
 }
 
-.btn-secondary {
+.btn-tertiary {
   background-color: #fec240;
   border-color: #fec240;
   font-weight: 300;
 }
 
-.btn-secondary:hover {
+.btn-tertiary:hover {
   background-color: #d48a1d;
   border-color: #d48a1d;
 }
